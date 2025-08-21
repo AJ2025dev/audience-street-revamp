@@ -44,8 +44,10 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" size="default">
-              Get Started
+            <Button variant="hero" size="default" asChild>
+              <a href="https://dsp.audiencestreet.ai/signup" target="_blank" rel="noopener noreferrer">
+                Get Started
+              </a>
             </Button>
           </div>
 
@@ -79,8 +81,10 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="default" className="mt-4">
-                Get Started
+              <Button variant="hero" size="default" className="mt-4" asChild>
+                <a href="https://dsp.audiencestreet.ai/signup" target="_blank" rel="noopener noreferrer">
+                  Get Started
+                </a>
               </Button>
             </nav>
           </div>
