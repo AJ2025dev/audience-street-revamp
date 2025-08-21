@@ -1,5 +1,9 @@
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import lenovoLogo from "@/assets/logos/lenovo-logo.png";
+import mashreqLogo from "@/assets/logos/mashreq-logo.png";
+import centrepointLogo from "@/assets/logos/centrepoint-logo.png";
+import emaarLogo from "@/assets/logos/emaar-logo.png";
 
 const Contact = () => {
   const contactInfo = [
@@ -121,7 +125,12 @@ const Contact = () => {
                 </div>
               </div>
 
-              <Button variant="hero" size="xl" className="w-full group">
+              <Button 
+                variant="hero" 
+                size="xl" 
+                className="w-full group"
+                onClick={() => window.open('https://form.theaudiencestreet.com', '_blank')}
+              >
                 Schedule Free Consultation
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -131,10 +140,10 @@ const Contact = () => {
                   Trusted by leading brands
                 </p>
                 <div className="flex items-center justify-center gap-8 opacity-60">
-                  <div className="text-sm font-semibold text-muted-foreground">Lenovo</div>
-                  <div className="text-sm font-semibold text-muted-foreground">Mashreq</div>
-                  <div className="text-sm font-semibold text-muted-foreground">Centrepoint</div>
-                  <div className="text-sm font-semibold text-muted-foreground">Emaar</div>
+                  <img src={lenovoLogo} alt="Lenovo" className="h-8 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+                  <img src={mashreqLogo} alt="Mashreq" className="h-8 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+                  <img src={centrepointLogo} alt="Centrepoint" className="h-8 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+                  <img src={emaarLogo} alt="Emaar" className="h-8 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
                 </div>
               </div>
             </div>
