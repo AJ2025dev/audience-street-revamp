@@ -37,26 +37,48 @@ const About = () => {
           </p>
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20 animate-slide-up">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
-            return (
-              <div key={index} className="card-elegant rounded-xl p-6 text-center">
-                <div className="flex justify-center mb-4">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
-                    <Icon className="w-6 h-6 text-accent" />
-                  </div>
-                </div>
-                <div className="text-2xl md:text-3xl font-bold text-gradient mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-sm text-muted-foreground font-medium">
-                  {stat.label}
-                </div>
+        {/* AI-Powered DSP Capabilities */}
+        <div className="card-elegant rounded-2xl p-8 mb-20 animate-slide-up">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              AI-Powered Campaign Optimization
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Our DSP leverages advanced AI algorithms to automatically optimize your campaigns in real-time, ensuring maximum ROI and KPI achievement across all digital channels.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Lightbulb className="w-8 h-8 text-primary" />
               </div>
-            );
-          })}
+              <h4 className="font-semibold text-foreground mb-2">Smart Bidding</h4>
+              <p className="text-muted-foreground text-sm">
+                AI analyzes bid landscapes and adjusts strategies to maximize campaign performance while meeting your target CPA and ROAS goals.
+              </p>
+            </div>
+            
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-accent" />
+              </div>
+              <h4 className="font-semibold text-foreground mb-2">Audience Intelligence</h4>
+              <p className="text-muted-foreground text-sm">
+                Machine learning identifies high-value audience segments and predicts user behavior to optimize targeting and reduce acquisition costs.
+              </p>
+            </div>
+            
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-primary" />
+              </div>
+              <h4 className="font-semibold text-foreground mb-2">KPI Tracking</h4>
+              <p className="text-muted-foreground text-sm">
+                Real-time AI monitoring ensures campaigns stay on track to meet your specific KPIs, with automatic adjustments when performance deviates.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Content Grid */}
