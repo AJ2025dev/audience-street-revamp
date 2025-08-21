@@ -6,36 +6,36 @@ const Services = () => {
   const dspFeatures = [
     {
       icon: Target,
-      title: "Cross-Channel Reach",
-      description: "Connect TV, audio, mobile, display, and digital out-of-home from one platform"
+      title: "Real-Time Bidding",
+      description: "Access premium inventory across 500+ exchanges with millisecond bidding decisions"
     },
     {
       icon: Users,
-      title: "Objective Measurement",
-      description: "Measure results both online and in-store with marketplace of measurement partners"
+      title: "Advanced Audience Targeting",
+      description: "Data-driven targeting with 1st, 2nd, and 3rd party data integration"
     },
     {
       icon: TrendingUp,
-      title: "All From One Platform",
-      description: "Unified advertising platform with cutting-edge technology and premium inventory"
+      title: "Performance Optimization",
+      description: "AI-powered campaign optimization with real-time budget allocation"
     }
   ];
 
   const tradingFeatures = [
     {
       icon: Globe,
-      title: "Programmatic Buying",
-      description: "Access premium inventory across all digital channels with real-time bidding"
+      title: "Cross-Channel Inventory",
+      description: "Connected TV, Display, Video, Mobile, Audio, and Digital Out-of-Home"
     },
     {
       icon: Monitor,
-      title: "Connected TV & Audio",
-      description: "Reach audiences on streaming platforms and connected TV environments"
+      title: "Brand Safety & Viewability",
+      description: "Advanced fraud detection and brand safety tools with viewability measurement"
     },
     {
       icon: Smartphone,
-      title: "Mobile & Display",
-      description: "Comprehensive mobile advertising with native, video, and display formats"
+      title: "Unified Reporting",
+      description: "Real-time analytics dashboard with attribution modeling and conversion tracking"
     }
   ];
 
@@ -62,11 +62,11 @@ const Services = () => {
               </div>
               
               <h3 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
-                An Objectively Better Way to Advertise
+                Audience Street DSP Platform
               </h3>
               
               <p className="text-lg text-muted-foreground mb-8">
-                Our advertising platform helps you find new audiences and grow your brand with cutting-edge technology and access to the world's best content across all channels.
+                Our demand-side platform gives you access to premium inventory across all digital channels. Buy smarter, reach better audiences, and maximize your advertising ROI with data-driven insights.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -87,7 +87,7 @@ const Services = () => {
               </div>
 
               <Button variant="default" size="lg">
-                Discover Our Platform
+                Access DSP Platform
               </Button>
             </div>
 
@@ -113,11 +113,11 @@ const Services = () => {
               </div>
               
               <h3 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
-                Programmatic Excellence
+                Expert Trading Desk Services
               </h3>
               
               <p className="text-lg text-muted-foreground mb-8">
-                Access premium inventory across all digital channels with our advanced trading desk. From programmatic buying to real-time optimization, we deliver results that matter.
+                Our managed services team delivers full-service programmatic advertising. From campaign strategy to execution and optimization, we handle everything so you can focus on results.
               </p>
 
               <div className="space-y-6 mb-8">
