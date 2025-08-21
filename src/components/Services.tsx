@@ -86,8 +86,10 @@ const Services = () => {
                 })}
               </div>
 
-              <Button variant="default" size="lg">
-                Access DSP Platform
+              <Button variant="default" size="lg" asChild>
+                <a href="https://dsp.audiencestreet.ai/login" target="_blank" rel="noopener noreferrer">
+                  Access DSP Platform
+                </a>
               </Button>
             </div>
 
