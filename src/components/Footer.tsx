@@ -53,15 +53,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-sm text-primary-foreground/70">
                 <Mail className="w-4 h-4 mr-3" />
-                hello@theaudiencestreet.com
+                support@theaudiencestreet.com
               </div>
               <div className="flex items-center text-sm text-primary-foreground/70">
                 <Phone className="w-4 h-4 mr-3" />
-                +1 (555) 123-4567
+                +91 9014426692
               </div>
               <div className="flex items-center text-sm text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mr-3" />
-                New York, NY 10001
+                Wework Krishemerald, Hyderabad 500081
               </div>
             </div>
           </div>
