@@ -6,14 +6,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "hello@theaudiencestreet.com",
-      action: "mailto:hello@theaudiencestreet.com"
+      details: "support@theaudiencestreet.com",
+      action: "mailto:support@theaudiencestreet.com"
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: "+1 (555) 123-4567",
-      action: "tel:+15551234567"
+      details: "+91 9014426692",
+      action: "tel:+919014426692"
     }
   ];
 
@@ -126,9 +126,17 @@ const Contact = () => {
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
 
-              <p className="text-xs text-muted-foreground text-center mt-4">
-                Trusted by 500+ businesses worldwide
-              </p>
+              <div className="text-center mt-6">
+                <p className="text-xs text-muted-foreground mb-4">
+                  Trusted by leading brands
+                </p>
+                <div className="flex items-center justify-center gap-8 opacity-60">
+                  <div className="text-sm font-semibold text-muted-foreground">Lenovo</div>
+                  <div className="text-sm font-semibold text-muted-foreground">Mashreq</div>
+                  <div className="text-sm font-semibold text-muted-foreground">Centrepoint</div>
+                  <div className="text-sm font-semibold text-muted-foreground">Emaar</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
