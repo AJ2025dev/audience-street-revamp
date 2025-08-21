@@ -14,12 +14,21 @@ const Contact = () => {
       title: "Call Us",
       details: "+1 (555) 123-4567",
       action: "tel:+15551234567"
+    }
+  ];
+
+  const locations = [
+    {
+      country: "India",
+      address: "Wework Krishemerald, Hyderabad 500081"
     },
     {
-      icon: MapPin,
-      title: "Visit Us",
-      details: "New York, NY 10001",
-      action: "#"
+      country: "United States",
+      address: "220 Davidson Avenue, Somerset, NJ 08873"
+    },
+    {
+      country: "UAE",
+      address: "18th Floor, Creative Tower, Hamad Ben Mohammed St., P.O Box 4422. Fujairah. UAE"
     }
   ];
 
@@ -69,13 +78,20 @@ const Contact = () => {
             </div>
 
             <div className="p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-lg">
-              <h4 className="font-semibold text-primary-foreground mb-2">
-                Business Hours
+              <h4 className="font-semibold text-primary-foreground mb-4">
+                Our Locations
               </h4>
-              <p className="text-primary-foreground/70">
-                Monday - Friday: 9:00 AM - 6:00 PM EST<br />
-                Weekend: By appointment only
-              </p>
+              <div className="space-y-4">
+                {locations.map((location, index) => (
+                  <div key={index} className="flex items-start">
+                    <MapPin className="w-4 h-4 text-accent mt-1 mr-3 flex-shrink-0" />
+                    <div>
+                      <h5 className="font-medium text-primary-foreground text-sm">{location.country}</h5>
+                      <p className="text-primary-foreground/70 text-sm">{location.address}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
