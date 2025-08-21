@@ -6,36 +6,36 @@ const Services = () => {
   const dspFeatures = [
     {
       icon: Target,
-      title: "Real-Time Bidding",
-      description: "Access premium inventory across 500+ exchanges with millisecond bidding decisions"
+      title: "AI-Generated Creatives",
+      description: "Automatically generate high-performing ad creatives using AI technology for optimal engagement"
     },
     {
       icon: Users,
-      title: "Advanced Audience Targeting",
-      description: "Data-driven targeting with 1st, 2nd, and 3rd party data integration"
+      title: "Retail Media Solutions",
+      description: "Connect with retail environments and leverage first-party retail data for targeted campaigns"
     },
     {
       icon: TrendingUp,
-      title: "Performance Optimization",
-      description: "AI-powered campaign optimization with real-time budget allocation"
+      title: "AI Campaign Prompts",
+      description: "Use AI-powered prompts to optimize campaign setup, targeting, and bidding strategies"
     }
   ];
 
   const tradingFeatures = [
     {
       icon: Globe,
-      title: "Cross-Channel Inventory",
-      description: "Connected TV, Display, Video, Mobile, Audio, and Digital Out-of-Home"
+      title: "Media Planning Tool",
+      description: "Advanced media planning with budget allocation, reach optimization, and campaign forecasting"
     },
     {
       icon: Monitor,
-      title: "Brand Safety & Viewability",
-      description: "Advanced fraud detection and brand safety tools with viewability measurement"
+      title: "Real-Time Bidding",
+      description: "Access premium inventory across 500+ exchanges with millisecond bidding decisions"
     },
     {
       icon: Smartphone,
-      title: "Unified Reporting",
-      description: "Real-time analytics dashboard with attribution modeling and conversion tracking"
+      title: "Cross-Channel Campaigns",
+      description: "Unified campaigns across Connected TV, Display, Video, Mobile, Audio, and DOOH"
     }
   ];
 
