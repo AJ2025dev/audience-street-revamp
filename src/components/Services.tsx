@@ -25,18 +25,18 @@ const Services = () => {
   const adtechFeatures = [
     {
       icon: Target,
-      title: "Precision Targeting",
-      description: "Reach the right audience at the perfect moment with laser precision"
+      title: "Cross-Channel Reach",
+      description: "Connect TV, audio, mobile, display, and digital out-of-home from one platform"
     },
     {
       icon: Users,
-      title: "Audience Insights",
-      description: "Deep understanding of your customers' behaviors and preferences"
+      title: "Objective Measurement",
+      description: "Measure results both online and in-store with marketplace of measurement partners"
     },
     {
       icon: TrendingUp,
-      title: "Performance Optimization",
-      description: "Maximize ROI with continuous campaign optimization"
+      title: "All From One Platform",
+      description: "Unified advertising platform with cutting-edge technology and premium inventory"
     }
   ];
 
@@ -114,11 +114,11 @@ const Services = () => {
               </div>
               
               <h3 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
-                Advanced Ad-Tech Platform
+                An Objectively Better Way to Advertise
               </h3>
               
               <p className="text-lg text-muted-foreground mb-8">
-                Maximize your advertising impact with our sophisticated ad-tech solutions. From programmatic buying to real-time optimization, we've got you covered.
+                Our advertising platform helps you find new audiences and grow your brand with cutting-edge technology and access to the world's best content across all channels.
               </p>
 
               <div className="space-y-6 mb-8">

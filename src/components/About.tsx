@@ -33,7 +33,7 @@ const About = () => {
             Welcome to The Audience Street
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The next generation in dynamic and adaptive online marketing. We combine artificial intelligence with advanced ad-tech to deliver unprecedented results.
+            We help advertisers find new audiences and grow their brands with cutting-edge technology. Our platform connects you to premium inventory across all digital channels.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const About = () => {
               Passionate Specialists Delivering Excellence
             </h3>
             <p className="text-lg text-muted-foreground mb-8">
-              We are one of the leading digital performance marketing companies, specializing in AI-powered solutions and advanced ad-tech platforms. Our team of passionate specialists works tirelessly to turn good results into great ones across all digital channels.
+              We provide an objectively better way to advertise. Our platform gives you access to premium inventory across connected TV, audio, mobile, display, and digital out-of-home - all from one unified solution that measures results both online and in-store.
             </p>
 
             <div className="space-y-4 mb-8">
