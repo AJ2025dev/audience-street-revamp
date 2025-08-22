@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-4 md:mb-6 leading-tight px-4 sm:px-0">
             We'll Help{" "}
             <span className="text-gradient bg-gradient-to-r from-accent to-primary-foreground bg-clip-text text-transparent">
               Scale Your Business
@@ -36,35 +36,35 @@ const Hero = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-primary-foreground/80 mb-8 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-primary-foreground/80 mb-6 md:mb-8 leading-relaxed max-w-3xl mx-auto px-4 sm:px-0">
             Grow your business by finding out what customers really want & turn good results into great ones across all digital channels with cutting-edge AI and Ad-Tech solutions.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
-            <Button variant="hero" size="xl" className="group" asChild>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center animate-slide-up px-4 sm:px-0">
+            <Button variant="hero" size="xl" className="group w-full sm:w-auto" asChild>
               <a href="https://dsp.audiencestreet.ai/signup" target="_blank" rel="noopener noreferrer">
                 Get Started Today
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
             
-            <Button variant="outline" size="xl" className="bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20">
+            <Button variant="outline" size="xl" className="bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20 w-full sm:w-auto">
               <Target className="w-5 h-5 mr-2" />
               Learn More
             </Button>
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-16 animate-scale-in">
-            <p className="text-primary-foreground/60 text-sm mb-6">
+          <div className="mt-12 md:mt-16 animate-scale-in px-4 sm:px-0">
+            <p className="text-primary-foreground/60 text-sm mb-4 md:mb-6">
               Trusted by leading brands worldwide
             </p>
-            <div className="flex justify-center items-center space-x-8 opacity-60">
-              <div className="h-8 w-20 bg-primary-foreground/20 rounded"></div>
-              <div className="h-8 w-24 bg-primary-foreground/20 rounded"></div>
-              <div className="h-8 w-16 bg-primary-foreground/20 rounded"></div>
-              <div className="h-8 w-28 bg-primary-foreground/20 rounded"></div>
+            <div className="flex justify-center items-center space-x-4 sm:space-x-6 md:space-x-8 opacity-60 overflow-x-auto">
+              <div className="h-6 sm:h-8 w-16 sm:w-20 bg-primary-foreground/20 rounded flex-shrink-0"></div>
+              <div className="h-6 sm:h-8 w-18 sm:w-24 bg-primary-foreground/20 rounded flex-shrink-0"></div>
+              <div className="h-6 sm:h-8 w-12 sm:w-16 bg-primary-foreground/20 rounded flex-shrink-0"></div>
+              <div className="h-6 sm:h-8 w-20 sm:w-28 bg-primary-foreground/20 rounded flex-shrink-0"></div>
             </div>
           </div>
         </div>

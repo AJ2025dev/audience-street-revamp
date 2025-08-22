@@ -28,27 +28,27 @@ const About = () => {
     <section id="about" className="py-20 bg-background">
       <div className="container-padding max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in px-4 sm:px-0">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-foreground mb-4 md:mb-6">
             Welcome to The Audience Street
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
             We help advertisers find new audiences and grow their brands with cutting-edge technology. Our platform connects you to premium inventory across all digital channels.
           </p>
         </div>
 
         {/* AI-Powered DSP Capabilities */}
-        <div className="card-elegant rounded-2xl p-8 mb-20 animate-slide-up">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+        <div className="card-elegant rounded-2xl p-6 md:p-8 mb-16 md:mb-20 animate-slide-up">
+          <div className="text-center mb-6 md:mb-8">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
               AI-Powered Campaign Optimization
             </h3>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
               Our DSP leverages advanced AI algorithms to automatically optimize your campaigns in real-time, ensuring maximum ROI and KPI achievement across all digital channels.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Lightbulb className="w-8 h-8 text-primary" />
@@ -82,13 +82,13 @@ const About = () => {
         </div>
 
         {/* Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left Content */}
           <div className="animate-fade-in">
-            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-4 md:mb-6">
               Passionate Specialists Delivering Excellence
             </h3>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-base sm:text-lg text-muted-foreground mb-6 md:mb-8">
               We provide an objectively better way to advertise. Our platform gives you access to premium inventory across connected TV, audio, mobile, display, and digital out-of-home - all from one unified solution that measures results both online and in-store.
             </p>
 

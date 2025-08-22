@@ -43,29 +43,29 @@ const Services = () => {
     <section id="services" className="py-20 section-bg">
       <div className="container-padding max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in px-4 sm:px-0">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-foreground mb-4 md:mb-6">
             Driving Digital Performance
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
             We drive business performance with passionate specialists and advanced programmatic advertising solutions.
           </p>
         </div>
 
         {/* DSP Services */}
-        <div className="mb-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="mb-16 md:mb-20">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="animate-slide-up">
               <div className="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full mb-6">
                 <Target className="w-5 h-5 mr-2 text-primary" />
                 <span className="text-primary font-semibold">DSP Platform</span>
               </div>
               
-              <h3 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
+              <h3 className="text-xl sm:text-2xl md:text-4xl font-bold text-foreground mb-4 md:mb-6">
                 Audience Street DSP Platform
               </h3>
               
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-base sm:text-lg text-muted-foreground mb-6 md:mb-8">
                 Our demand-side platform gives you access to premium inventory across all digital channels. Buy smarter, reach better audiences, and maximize your advertising ROI with data-driven insights.
               </p>
 
@@ -94,11 +94,11 @@ const Services = () => {
             </div>
 
             <div className="animate-scale-in">
-              <div className="card-elegant rounded-2xl p-8">
+              <div className="card-elegant rounded-2xl p-4 md:p-8">
                 <img 
                   src={adtechIllustration} 
                   alt="DSP Platform Solutions" 
-                  className="w-full h-64 object-cover rounded-lg"
+                  className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-lg"
                 />
               </div>
             </div>
@@ -107,18 +107,18 @@ const Services = () => {
 
         {/* Trading Desk Services */}
         <div>
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="lg:order-2 animate-slide-up">
               <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
                 <Globe className="w-5 h-5 mr-2 text-accent" />
                 <span className="text-accent font-semibold">Trading Desk</span>
               </div>
               
-              <h3 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
+              <h3 className="text-xl sm:text-2xl md:text-4xl font-bold text-foreground mb-4 md:mb-6">
                 Expert Trading Desk Services
               </h3>
               
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-base sm:text-lg text-muted-foreground mb-6 md:mb-8">
                 Our managed services team delivers full-service programmatic advertising. From campaign strategy to execution and optimization, we handle everything so you can focus on results.
               </p>
 

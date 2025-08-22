@@ -38,19 +38,19 @@ const Contact = () => {
       
       <div className="relative z-10 container-padding max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-5xl font-bold text-primary-foreground mb-6">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in px-4 sm:px-0">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-primary-foreground mb-4 md:mb-6">
             Ready to Transform Your Business?
           </h2>
-          <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-primary-foreground/80 max-w-3xl mx-auto">
             Get in touch with our experts today and discover how AI and advanced ad-tech can revolutionize your digital performance.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Contact Info */}
           <div className="animate-slide-up">
-            <h3 className="text-2xl font-bold text-primary-foreground mb-8">
+            <h3 className="text-xl sm:text-2xl font-bold text-primary-foreground mb-6 md:mb-8">
               Let's Start a Conversation
             </h3>
             
@@ -97,8 +97,8 @@ const Contact = () => {
 
           {/* CTA Card */}
           <div className="animate-scale-in">
-            <div className="card-elegant bg-card/95 backdrop-blur-sm rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-foreground mb-6">
+            <div className="card-elegant bg-card/95 backdrop-blur-sm rounded-2xl p-6 md:p-8">
+              <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4 md:mb-6">
                 Get Your Free Consultation
               </h3>
               
