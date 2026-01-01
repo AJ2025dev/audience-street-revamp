@@ -265,7 +265,42 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">15. Changes to This Privacy Policy</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">15. Account and Data Deletion</h2>
+            <p className="text-muted-foreground mb-4">
+              You have the right to request deletion of your account and all associated personal data. To submit 
+              a deletion request, please use one of the following methods:
+            </p>
+            <ul className="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+              <li>
+                <strong>Email Request:</strong> Send an email to{" "}
+                <a 
+                  href="mailto:delete@theaudiencestreet.com?subject=Account%20Deletion%20Request" 
+                  className="text-primary hover:underline"
+                >
+                  delete@theaudiencestreet.com
+                </a>{" "}
+                with the subject line "Account Deletion Request"
+              </li>
+              <li><strong>In-App Request:</strong> If available in your app, navigate to Settings &gt; Account &gt; Delete Account</li>
+              <li><strong>Contact Form:</strong> Submit a request through our contact form specifying "Account Deletion" as the subject</li>
+            </ul>
+            <p className="text-muted-foreground mb-4">
+              When you request account deletion, we will:
+            </p>
+            <ul className="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+              <li>Verify your identity to protect against unauthorized requests</li>
+              <li>Delete your account and personal data within 30 days of verification</li>
+              <li>Send you a confirmation once the deletion is complete</li>
+              <li>Retain only data that we are legally required to keep (e.g., transaction records for tax purposes)</li>
+            </ul>
+            <p className="text-muted-foreground mb-4">
+              Please note that account deletion is permanent and cannot be undone. Any purchased content, 
+              in-app progress, or subscriptions associated with your account will be lost.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">16. Changes to This Privacy Policy</h2>
             <p className="text-muted-foreground mb-4">
               We may update this Privacy Policy from time to time. We will notify you of any material changes 
               by posting the new Privacy Policy on this page and updating the "Last updated" date. For material 
@@ -278,7 +313,7 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">16. Contact Us</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">17. Contact Us</h2>
             <p className="text-muted-foreground mb-4">
               If you have any questions, concerns, or requests regarding this Privacy Policy or our data 
               practices, please contact us:
