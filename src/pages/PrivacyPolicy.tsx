@@ -196,9 +196,16 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-foreground">11. Children's Privacy</h2>
             <p className="text-muted-foreground mb-4">
-              Our Services are not intended for individuals under the age of 18. We do not knowingly collect 
-              personal information from children under 18. If we become aware that we have collected personal 
-              information from a child under 18, we will take steps to delete such information promptly.
+              Some of our apps and games may be designed for or include features suitable for children. For these 
+              apps, we are committed to complying with applicable child protection laws, including the Children's 
+              Online Privacy Protection Act (COPPA) in the United States and similar regulations worldwide.
+            </p>
+            <p className="text-muted-foreground mb-4">
+              For apps not specifically designed for children, our Services are not intended for individuals under 
+              the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly 
+              collect personal information from children without parental consent. If we become aware that we have 
+              collected personal information from a child without appropriate consent, we will take steps to delete 
+              such information promptly.
             </p>
             <p className="text-muted-foreground mb-4">
               If you are a parent or guardian and believe that your child has provided us with personal 
@@ -207,7 +214,29 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">12. California Privacy Rights (CCPA)</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">12. Google Play Families Policy Compliance</h2>
+            <p className="text-muted-foreground mb-4">
+              For our apps that target children or families and are distributed through Google Play, we comply with 
+              the Google Play Families Policy. This includes:
+            </p>
+            <ul className="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+              <li><strong>No Behavioral Advertising:</strong> We do not display personalized or behavioral advertising to children</li>
+              <li><strong>Age-Appropriate Content:</strong> All content, including user-generated content and ads, is appropriate for the intended audience</li>
+              <li><strong>Parental Controls:</strong> Where applicable, we provide parental controls and consent mechanisms</li>
+              <li><strong>Limited Data Collection:</strong> We minimize data collection from children and only collect what is necessary for the app to function</li>
+              <li><strong>No Account Requirements:</strong> Children are not required to create accounts or provide personal information to use core app features</li>
+              <li><strong>Compliant Ad SDKs:</strong> We only use advertising SDKs that are certified for use with child-directed content</li>
+              <li><strong>Clear Privacy Practices:</strong> Our privacy practices are transparent and easy to understand for parents and guardians</li>
+            </ul>
+            <p className="text-muted-foreground mb-4">
+              We are committed to providing a safe and age-appropriate experience for all users, including children. 
+              If you have any questions about our family-friendly apps or our compliance with the Google Play 
+              Families Policy, please contact us at support@theaudiencestreet.com.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">13. California Privacy Rights (CCPA)</h2>
             <p className="text-muted-foreground mb-4">
               If you are a California resident, you have specific rights under the California Consumer Privacy 
               Act (CCPA), including:
@@ -221,7 +250,7 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">13. GDPR Compliance</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">14. GDPR Compliance</h2>
             <p className="text-muted-foreground mb-4">
               If you are located in the European Economic Area (EEA), United Kingdom, or Switzerland, you have 
               additional rights under the General Data Protection Regulation (GDPR). Our legal bases for 
@@ -236,7 +265,7 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">14. Changes to This Privacy Policy</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">15. Changes to This Privacy Policy</h2>
             <p className="text-muted-foreground mb-4">
               We may update this Privacy Policy from time to time. We will notify you of any material changes 
               by posting the new Privacy Policy on this page and updating the "Last updated" date. For material 
@@ -249,7 +278,7 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">15. Contact Us</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">16. Contact Us</h2>
             <p className="text-muted-foreground mb-4">
               If you have any questions, concerns, or requests regarding this Privacy Policy or our data 
               practices, please contact us:
