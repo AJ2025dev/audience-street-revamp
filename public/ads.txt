@@ -5,8 +5,8 @@
 # 
 # Replace the entries below with your actual ad network information
 
-# Google AdSense / AdMob (replace pub-XXXXXXXXXXXXXXXX with your publisher ID)
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Google AdSense / AdMob
+google.com, pub-9890178570114059, DIRECT, f08c47fec0942fa0
 
 # Google Ad Manager (replace with your network code)
 # google.com, XXXXXXXX, DIRECT, f08c47fec0942fa0
