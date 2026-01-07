@@ -1,0 +1,24 @@
+# ads.txt file for theaudiencestreet.com
+# Authorized Digital Sellers
+# 
+# Format: <DOMAIN>, <PUBLISHER_ID>, <RELATIONSHIP>, <CERTIFICATION_AUTHORITY_ID>
+# 
+# Replace the entries below with your actual ad network information
+
+# Google AdSense / AdMob (replace pub-XXXXXXXXXXXXXXXX with your publisher ID)
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager (replace with your network code)
+# google.com, XXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Unity Ads (replace with your publisher ID)
+# unity.com, XXXXXXXX, DIRECT
+
+# AppLovin (replace with your publisher ID)
+# applovin.com, XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, DIRECT
+
+# ironSource (replace with your publisher ID)
+# ironsrc.com, XXXXXXXX, DIRECT
+
+# Add your authorized sellers below:
+
