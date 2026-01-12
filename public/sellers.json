@@ -134,6 +134,54 @@
       "seller_type": "INTERMEDIARY",
       "domain": "smaato.com",
       "name": "Smaato"
+    },
+    {
+      "seller_id": "90121",
+      "seller_type": "PUBLISHER",
+      "domain": "mobilityware.com",
+      "name": "Mobilityware"
+    },
+    {
+      "seller_id": "92317",
+      "seller_type": "PUBLISHER",
+      "domain": "zimad.com",
+      "name": "Zimad"
+    },
+    {
+      "seller_id": "tas-703",
+      "seller_type": "PUBLISHER",
+      "domain": "playsimple.in",
+      "name": "Playsimple"
+    },
+    {
+      "seller_id": "tas-706",
+      "seller_type": "PUBLISHER",
+      "domain": "onefootball.com",
+      "name": "Onefootball"
+    },
+    {
+      "seller_id": "92322",
+      "seller_type": "PUBLISHER",
+      "domain": "peoplefun.com",
+      "name": "PeopleFun"
+    },
+    {
+      "seller_id": "90122",
+      "seller_type": "PUBLISHER",
+      "domain": "xflowgames.com",
+      "name": "Xflow"
+    },
+    {
+      "seller_id": "92323",
+      "seller_type": "PUBLISHER",
+      "domain": "oziontech.com",
+      "name": "Ozionetech"
+    },
+    {
+      "seller_id": "92319",
+      "seller_type": "PUBLISHER",
+      "domain": "voodoo.io",
+      "name": "Voodoo"
     }
   ]
 }
