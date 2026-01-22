@@ -188,24 +188,6 @@
       "seller_type": "PUBLISHER",
       "domain": "onefootball.com",
       "name": "Onefootball"
-    },
-    {
-      "seller_id": "tas-707",
-      "seller_type": "PUBLISHER",
-      "domain": "jioads.com",
-      "name": "Jio Ads"
-    },
-    {
-      "seller_id": "tas-708",
-      "seller_type": "PUBLISHER",
-      "domain": "abplive.com",
-      "name": "ABP"
-    },
-    {
-      "seller_id": "tas-709",
-      "seller_type": "PUBLISHER",
-      "domain": "tcl.com",
-      "name": "TCL"
     }
   ]
 }
