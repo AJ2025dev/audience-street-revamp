@@ -1,9 +1,13 @@
 User-agent: Google-adstxt
 Disallow:
+Allow: /ads.txt
+Allow: /app-ads.txt
 Allow: /sellers.json
 
 User-agent: Mediapartners-Google
 Disallow:
+Allow: /ads.txt
+Allow: /app-ads.txt
 Allow: /sellers.json
 
 User-agent: Googlebot
