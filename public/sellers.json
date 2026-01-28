@@ -89,9 +89,9 @@
     },
     {
       "seller_id": "92316",
-      "seller_type": "INTERMEDIARY",
-      "domain": "pubnative.net",
-      "name": "Verve"
+      "seller_type": "PUBLISHER",
+      "domain": "easybrain.com",
+      "name": "Easybrain"
     },
     {
       "seller_id": "92317",
@@ -152,6 +152,12 @@
       "seller_type": "INTERMEDIARY",
       "domain": "admixer.com",
       "name": "Admixer"
+    },
+    {
+      "seller_id": "92343",
+      "seller_type": "PUBLISHER",
+      "domain": "infinitygames.io",
+      "name": "Infinity Games"
     },
     {
       "seller_id": "96412",
