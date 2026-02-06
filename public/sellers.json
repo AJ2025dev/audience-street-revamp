@@ -1,199 +1,247 @@
 {
+  "contact_email": "info@advisermedia.co",
+  "contact_address": "CWEP0763, Compass Building, Al Shohada Road, 10055, AL Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE",
   "version": "1.0",
-  "contact_email": "adops@theaudiencestreet.com",
-  "contact_address": "220 Davidson Ave #303, Somerset, NJ 08873, USA",
   "sellers": [
     {
-      "seller_id": "1183-fb",
-      "seller_type": "BOTH",
-      "domain": "vidio.com",
-      "name": "PT Vidio Dot Com"
-    },
-    {
-      "seller_id": "323-b5685",
-      "seller_type": "BOTH",
-      "domain": "pocketfm.com",
-      "name": "Pocket FM Corp."
-    },
-    {
-      "seller_id": "323-b5687",
-      "seller_type": "BOTH",
-      "domain": "herocraft.com",
-      "name": "HeroCraft Ltd."
-    },
-    {
-      "seller_id": "323-b5692",
-      "seller_type": "BOTH",
-      "domain": "truecaller.com",
-      "name": "Truecaller"
-    },
-    {
-      "seller_id": "75002",
+      "seller_id": "70517",
       "seller_type": "PUBLISHER",
-      "domain": "veraxen.com",
-      "name": "Veraxen"
+      "name": "Cleverside Ltd",
+      "domain": "cleverside.com"
     },
     {
-      "seller_id": "82536",
+      "seller_id": "70518",
+      "seller_type": "PUBLISHER",
+      "name": "IdeaSolutions",
+      "domain": "ideasolutions.it"
+    },
+    {
+      "seller_id": "70519",
+      "seller_type": "PUBLISHER",
+      "name": "ZeptoLab",
+      "domain": "zeptolab.com"
+    },
+    {
+      "seller_id": "70520",
+      "seller_type": "PUBLISHER",
+      "name": "Funky Fresh Times",
+      "domain": "funkyfreshtimes.com"
+    },
+    {
+      "seller_id": "70521",
+      "seller_type": "PUBLISHER",
+      "name": "Funky Fashion Mag",
+      "domain": "funkyfashionmag.com"
+    },
+    {
+      "seller_id": "70523",
+      "seller_type": "PUBLISHER",
+      "name": "Market For Bulls",
+      "domain": "market4bulls.com"
+    },
+    {
+      "seller_id": "70525",
+      "seller_type": "PUBLISHER",
+      "name": "Fancy Fonts",
+      "domain": "fancyfonts.site"
+    },
+    {
+      "seller_id": "70526",
+      "seller_type": "PUBLISHER",
+      "name": "Hollywood House",
+      "domain": "dailyhollywoodhouse.com"
+    },
+    {
+      "seller_id": "70527",
+      "seller_type": "PUBLISHER",
+      "name": "Funky Food House",
+      "domain": "funkyfoodhouse.com"
+    },
+    {
+      "seller_id": "70528",
+      "seller_type": "PUBLISHER",
+      "name": "Everyday Hackshub",
+      "domain": "everydayhackshub.com"
+    },
+    {
+      "seller_id": "70529",
+      "seller_type": "PUBLISHER",
+      "name": "Vesta Stream Studios, LLC",
+      "domain": "vestastream.com"
+    },
+    {
+      "seller_id": "70532",
+      "seller_type": "PUBLISHER",
+      "name": "Vyre Network",
+      "domain": "vyre.tv"
+    },
+    {
+      "seller_id": "70533",
+      "seller_type": "PUBLISHER",
+      "name": "Infinity Games",
+      "domain": "infinitygames.io"
+    },
+    {
+      "seller_id": "70537",
+      "seller_type": "PUBLISHER",
+      "name": "Rooftop Games",
+      "domain": "rooftopgames.com.tr"
+    },
+    {
+      "seller_id": "70563",
+      "seller_type": "PUBLISHER",
+      "name": "Quriousbit",
+      "domain": "quriousbit.com"
+    },
+    {
+      "seller_id": "70572",
+      "seller_type": "PUBLISHER",
+      "name": "Delight Room Co. LTD",
+      "domain": "alar.my"
+    },
+    {
+      "seller_id": "70573",
+      "seller_type": "PUBLISHER",
+      "name": "Onefootball",
+      "domain": "onefootball.com"
+    },
+    {
+      "seller_id": "70574",
+      "seller_type": "PUBLISHER",
+      "name": "veraxen",
+      "domain": "veraxen.com"
+    },
+    {
+      "seller_id": "70575",
+      "seller_type": "PUBLISHER",
+      "name": "Zimad",
+      "domain": "zimad.com"
+    },
+    {
+      "seller_id": "70576",
       "seller_type": "INTERMEDIARY",
-      "domain": "smaato.com",
-      "name": "Smaato"
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
-      "seller_id": "83120",
+      "seller_id": "70577",
       "seller_type": "INTERMEDIARY",
-      "domain": "adverty.com",
-      "name": "Adverty"
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
-      "seller_id": "90121",
-      "seller_type": "PUBLISHER",
-      "domain": "mobilityware.com",
-      "name": "Mobilityware"
-    },
-    {
-      "seller_id": "90122",
-      "seller_type": "PUBLISHER",
-      "domain": "xflowgames.com",
-      "name": "Xflow"
-    },
-    {
-      "seller_id": "92311",
+      "seller_id": "70578",
       "seller_type": "INTERMEDIARY",
-      "domain": "pubnative.net",
-      "name": "Verve"
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
-      "seller_id": "92312",
+      "seller_id": "70579",
+      "seller_type": "PUBLISHER",
+      "name": "Zynga",
+      "domain": "zynga.com"
+    },
+    {
+      "seller_id": "70580",
+      "seller_type": "PUBLISHER",
+      "name": "Easybrain Ltd.",
+      "domain": "easybrain.com"
+    },
+    {
+      "seller_id": "70581",
+      "seller_type": "PUBLISHER",
+      "name": "Wattpad",
+      "domain": "wattpad.com"
+    },
+    {
+      "seller_id": "70582",
       "seller_type": "INTERMEDIARY",
-      "domain": "pubnative.net",
-      "name": "Verve"
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
-      "seller_id": "92313",
+      "seller_id": "70583",
       "seller_type": "PUBLISHER",
-      "domain": "scopely.com",
-      "name": "Scopely"
+      "name": "Reliance Games",
+      "domain": "reliancegames.com"
     },
     {
-      "seller_id": "92314",
+      "seller_id": "70584",
       "seller_type": "PUBLISHER",
-      "domain": "zynga.com",
-      "name": "Zynga"
+      "name": "Zapak Digital Entertainment Ltd",
+      "domain": "zapak.com"
     },
     {
-      "seller_id": "92315",
+      "seller_id": "70585",
       "seller_type": "PUBLISHER",
-      "domain": "webtoons.com",
-      "name": "Webtoons"
+      "name": "Ozion",
+      "domain": "oziontech.com"
     },
     {
-      "seller_id": "92316",
+      "seller_id": "70586",
       "seller_type": "PUBLISHER",
-      "domain": "easybrain.com",
-      "name": "Easybrain"
+      "name": "Scopely",
+      "domain": "scopely.com"
     },
     {
-      "seller_id": "92317",
-      "seller_type": "PUBLISHER",
-      "domain": "zimad.com",
-      "name": "Zimad"
-    },
-    {
-      "seller_id": "92318",
+      "seller_id": "70587",
       "seller_type": "INTERMEDIARY",
-      "domain": "pubnative.net",
-      "name": "Verve"
+      "name": "Smaato",
+      "domain": "smaato.com"
     },
     {
-      "seller_id": "92319",
+      "seller_id": "70592",
       "seller_type": "PUBLISHER",
-      "domain": "voodoo.io",
-      "name": "Voodoo"
+      "name": "CallApp Caller ID, Call Recorder & Spam Blocker",
+      "domain": "callapp.com"
     },
     {
-      "seller_id": "92320",
+      "seller_id": "70593",
       "seller_type": "INTERMEDIARY",
-      "domain": "bidmachine.io",
-      "name": "Bidmachine"
+      "name": "Bidmachine",
+      "domain": "bidmachine.io"
     },
     {
-      "seller_id": "92321",
+      "seller_id": "70595",
       "seller_type": "PUBLISHER",
-      "domain": "learnings.ai",
-      "name": "Learnings Co., Limited"
+      "name": "SmartNews",
+      "domain": "smartnews.com"
     },
     {
-      "seller_id": "92322",
+      "seller_id": "70596",
       "seller_type": "PUBLISHER",
-      "domain": "peoplefun.com",
-      "name": "PeopleFun"
+      "name": "Peoplefun Inc.",
+      "domain": "peoplefun.com"
     },
     {
-      "seller_id": "92323",
+      "seller_id": "70597",
       "seller_type": "PUBLISHER",
-      "domain": "oziontech.com",
-      "name": "Ozionetech"
+      "name": "Playsimple",
+      "domain": "playsimple.in"
     },
     {
-      "seller_id": "92330",
+      "seller_id": "70598",
+      "seller_type": "PUBLISHER",
+      "name": "LEARNINGS CO., LIMITED",
+      "domain": "learnings.ai"
+    },
+    {
+      "seller_id": "79301",
+      "seller_type": "PUBLISHER",
+      "name": "MobilityWare, LLC",
+      "domain": "mobilityware.com"
+    },
+    {
+      "seller_id": "79302",
+      "seller_type": "PUBLISHER",
+      "name": "X-FLOW",
+      "domain": "xflowgames.com"
+    },
+    {
+      "seller_id": "63120",
       "seller_type": "INTERMEDIARY",
-      "domain": "display.io",
-      "name": "Display.io"
-    },
-    {
-      "seller_id": "92331",
-      "seller_type": "PUBLISHER",
-      "domain": "smartnews.com",
-      "name": "SmartNews"
-    },
-    {
-      "seller_id": "92335",
-      "seller_type": "INTERMEDIARY",
-      "domain": "admixer.com",
-      "name": "Admixer"
-    },
-    {
-      "seller_id": "92343",
-      "seller_type": "PUBLISHER",
-      "domain": "infinitygames.io",
-      "name": "Infinity Games"
-    },
-    {
-      "seller_id": "96412",
-      "seller_type": "PUBLISHER",
-      "domain": "callapp.com",
-      "name": "CallApp Caller ID, Call Recorder & Spam Blocker"
-    },
-    {
-      "seller_id": "N19T95",
-      "seller_type": "BOTH",
-      "domain": "roposo.com",
-      "name": "Glance InMobi Pte. Ltd."
-    },
-    {
-      "seller_id": "TAS-113",
-      "seller_type": "PUBLISHER",
-      "domain": "appi-fy.ai",
-      "name": "Appify Retail"
-    },
-    {
-      "seller_id": "tas-703",
-      "seller_type": "PUBLISHER",
-      "domain": "playsimple.in",
-      "name": "Playsimple"
-    },
-    {
-      "seller_id": "tas-704",
-      "seller_type": "PUBLISHER",
-      "domain": "cleverside.com",
-      "name": "Cleverside"
-    },
-    {
-      "seller_id": "tas-706",
-      "seller_type": "PUBLISHER",
-      "domain": "onefootball.com",
-      "name": "Onefootball"
+      "name": "Adverty",
+      "domain": "adverty.com"
     }
   ]
 }
