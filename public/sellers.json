@@ -224,6 +224,48 @@
       "seller_type": "PUBLISHER",
       "domain": "tripledot.com",
       "name": "Tripledot"
+    },
+    {
+      "seller_id": "90133",
+      "seller_type": "PUBLISHER",
+      "domain": "hungrystudio.com",
+      "name": "Hungry Studio"
+    },
+    {
+      "seller_id": "9011133",
+      "seller_type": "PUBLISHER",
+      "domain": "pocketfm.com",
+      "name": "Pocket FM Private Limited"
+    },
+    {
+      "seller_id": "90145",
+      "seller_type": "PUBLISHER",
+      "domain": "ea.com",
+      "name": "Electronic Arts, Inc."
+    },
+    {
+      "seller_id": "90123",
+      "seller_type": "INTERMEDIARY",
+      "domain": "metropcs.mobi",
+      "name": "Aura_MetroZone"
+    },
+    {
+      "seller_id": "90136",
+      "seller_type": "PUBLISHER",
+      "domain": "amanotes.com",
+      "name": "Amanotes"
+    },
+    {
+      "seller_id": "90147",
+      "seller_type": "PUBLISHER",
+      "domain": "scopely.com",
+      "name": "Scopely"
+    },
+    {
+      "seller_id": "90124",
+      "seller_type": "PUBLISHER",
+      "domain": "weatherbug.com",
+      "name": "WeatherBug"
     }
   ]
 }
