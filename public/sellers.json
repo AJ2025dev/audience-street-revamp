@@ -70,12 +70,6 @@
       "name": "Verve"
     },
     {
-      "seller_id": "92313",
-      "seller_type": "PUBLISHER",
-      "domain": "scopely.com",
-      "name": "Scopely"
-    },
-    {
       "seller_id": "92314",
       "seller_type": "PUBLISHER",
       "domain": "zynga.com",
@@ -114,8 +108,8 @@
     {
       "seller_id": "92320",
       "seller_type": "PUBLISHER",
-      "domain": "zapak.com",
-      "name": "Zapak"
+      "domain": "ea.com",
+      "name": "Electronic Arts, Inc."
     },
     {
       "seller_id": "92321",
@@ -148,10 +142,10 @@
       "name": "SmartNews"
     },
     {
-      "seller_id": "92332",
+      "seller_id": "92333",
       "seller_type": "PUBLISHER",
-      "domain": "lionstudios.cc",
-      "name": "Lion Studios, LLC"
+      "domain": "tripledot.com",
+      "name": "Tripledot"
     },
     {
       "seller_id": "92335",
@@ -220,12 +214,6 @@
       "name": "Lionstudios"
     },
     {
-      "seller_id": "92332",
-      "seller_type": "PUBLISHER",
-      "domain": "tripledot.com",
-      "name": "Tripledot"
-    },
-    {
       "seller_id": "90133",
       "seller_type": "PUBLISHER",
       "domain": "hungrystudio.com",
@@ -238,12 +226,6 @@
       "name": "Pocket FM Private Limited"
     },
     {
-      "seller_id": "90145",
-      "seller_type": "PUBLISHER",
-      "domain": "ea.com",
-      "name": "Electronic Arts, Inc."
-    },
-    {
       "seller_id": "90123",
       "seller_type": "INTERMEDIARY",
       "domain": "metropcs.mobi",
@@ -252,8 +234,8 @@
     {
       "seller_id": "90136",
       "seller_type": "PUBLISHER",
-      "domain": "amanotes.com",
-      "name": "Amanotes"
+      "domain": "audiomack.com",
+      "name": "Audiomack"
     },
     {
       "seller_id": "90147",
@@ -269,40 +251,39 @@
     },
     {
       "seller_id": "92344",
-      "name": "MAGICLAB",
+      "seller_type": "PUBLISHER",
       "domain": "maglab.com.tr",
-      "seller_type": "PUBLISHER"
+      "name": "MAGICLAB"
     },
     {
       "seller_id": "TASWEB122",
-      "name": "moneycontrol",
+      "seller_type": "PUBLISHER",
       "domain": "moneycontrol.com",
-      "seller_type": "PUBLISHER"
+      "name": "moneycontrol"
     },
     {
       "seller_id": "TAS-105",
-      "name": "mytvsuper",
+      "seller_type": "PUBLISHER",
       "domain": "mytvsuper.com",
-      "seller_type": "PUBLISHER"
+      "name": "mytvsuper"
     },
     {
       "seller_id": "94730",
-      "name": "Vesta Stream",
+      "seller_type": "PUBLISHER",
       "domain": "vestastream.com",
-      "seller_type": "PUBLISHER"
+      "name": "Vesta Stream"
     },
     {
       "seller_id": "92341",
-      "name": "Vyre TV",
+      "seller_type": "PUBLISHER",
       "domain": "vyre.tv",
-      "seller_type": "PUBLISHER"
-     },
+      "name": "Vyre TV"
+    },
     {
       "seller_id": "12239",
       "seller_type": "INTERMEDIARY",
       "domain": "bidmachine.io",
       "name": "Bidmachine"
-     }
-
+    }
   ]
 }
