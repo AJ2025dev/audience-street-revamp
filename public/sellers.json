@@ -10,6 +10,12 @@
       "name": "PT Vidio Dot Com"
     },
     {
+      "seller_id": "12239",
+      "seller_type": "INTERMEDIARY",
+      "domain": "bidmachine.io",
+      "name": "Bidmachine"
+    },
+    {
       "seller_id": "323-b5685",
       "seller_type": "PUBLISHER",
       "domain": "009studios.com",
@@ -58,6 +64,48 @@
       "name": "Xflow"
     },
     {
+      "seller_id": "90123",
+      "seller_type": "INTERMEDIARY",
+      "domain": "metropcs.mobi",
+      "name": "Aura_MetroZone"
+    },
+    {
+      "seller_id": "90124",
+      "seller_type": "PUBLISHER",
+      "domain": "weatherbug.com",
+      "name": "WeatherBug"
+    },
+    {
+      "seller_id": "90130",
+      "seller_type": "PUBLISHER",
+      "domain": "lionstudios.cc",
+      "name": "Lionstudios"
+    },
+    {
+      "seller_id": "90133",
+      "seller_type": "PUBLISHER",
+      "domain": "hungrystudio.com",
+      "name": "Hungry Studio"
+    },
+    {
+      "seller_id": "90136",
+      "seller_type": "PUBLISHER",
+      "domain": "audiomack.com",
+      "name": "Audiomack"
+    },
+    {
+      "seller_id": "90147",
+      "seller_type": "PUBLISHER",
+      "domain": "scopely.com",
+      "name": "Scopely"
+    },
+    {
+      "seller_id": "9011133",
+      "seller_type": "PUBLISHER",
+      "domain": "pocketfm.com",
+      "name": "Pocket FM Private Limited"
+    },
+    {
       "seller_id": "92311",
       "seller_type": "INTERMEDIARY",
       "domain": "pubnative.net",
@@ -70,6 +118,12 @@
       "name": "Verve"
     },
     {
+      "seller_id": "92313",
+      "seller_type": "PUBLISHER",
+      "domain": "gamovation.com",
+      "name": "GamoVation"
+    },
+    {
       "seller_id": "92314",
       "seller_type": "PUBLISHER",
       "domain": "zynga.com",
@@ -78,8 +132,8 @@
     {
       "seller_id": "92315",
       "seller_type": "PUBLISHER",
-      "domain": "webtoons.com",
-      "name": "Webtoons"
+      "domain": "bluetile.com",
+      "name": "Bluetile Games"
     },
     {
       "seller_id": "92316",
@@ -142,7 +196,7 @@
       "name": "SmartNews"
     },
     {
-      "seller_id": "92333",
+      "seller_id": "92332",
       "seller_type": "PUBLISHER",
       "domain": "tripledot.com",
       "name": "Tripledot"
@@ -154,10 +208,22 @@
       "name": "Admixer"
     },
     {
+      "seller_id": "92341",
+      "seller_type": "PUBLISHER",
+      "domain": "vyre.tv",
+      "name": "Vyre TV"
+    },
+    {
       "seller_id": "92343",
       "seller_type": "PUBLISHER",
       "domain": "infinitygames.io",
       "name": "Infinity Games"
+    },
+    {
+      "seller_id": "92344",
+      "seller_type": "PUBLISHER",
+      "domain": "maglab.com.tr",
+      "name": "MAGICLAB"
     },
     {
       "seller_id": "92346",
@@ -172,6 +238,12 @@
       "name": "Rooftop Games"
     },
     {
+      "seller_id": "94730",
+      "seller_type": "PUBLISHER",
+      "domain": "vestastream.com",
+      "name": "Vesta Stream"
+    },
+    {
       "seller_id": "96412",
       "seller_type": "PUBLISHER",
       "domain": "callapp.com",
@@ -184,10 +256,22 @@
       "name": "Glance InMobi Pte. Ltd."
     },
     {
+      "seller_id": "TAS-105",
+      "seller_type": "PUBLISHER",
+      "domain": "mytvsuper.com",
+      "name": "mytvsuper"
+    },
+    {
       "seller_id": "TAS-113",
       "seller_type": "PUBLISHER",
       "domain": "appi-fy.ai",
       "name": "Appify Retail"
+    },
+    {
+      "seller_id": "TASWEB122",
+      "seller_type": "PUBLISHER",
+      "domain": "moneycontrol.com",
+      "name": "moneycontrol"
     },
     {
       "seller_id": "tas-703",
@@ -206,84 +290,6 @@
       "seller_type": "PUBLISHER",
       "domain": "onefootball.com",
       "name": "Onefootball"
-    },
-    {
-      "seller_id": "90130",
-      "seller_type": "PUBLISHER",
-      "domain": "lionstudios.cc",
-      "name": "Lionstudios"
-    },
-    {
-      "seller_id": "90133",
-      "seller_type": "PUBLISHER",
-      "domain": "hungrystudio.com",
-      "name": "Hungry Studio"
-    },
-    {
-      "seller_id": "9011133",
-      "seller_type": "PUBLISHER",
-      "domain": "pocketfm.com",
-      "name": "Pocket FM Private Limited"
-    },
-    {
-      "seller_id": "90123",
-      "seller_type": "INTERMEDIARY",
-      "domain": "metropcs.mobi",
-      "name": "Aura_MetroZone"
-    },
-    {
-      "seller_id": "90136",
-      "seller_type": "PUBLISHER",
-      "domain": "audiomack.com",
-      "name": "Audiomack"
-    },
-    {
-      "seller_id": "90147",
-      "seller_type": "PUBLISHER",
-      "domain": "scopely.com",
-      "name": "Scopely"
-    },
-    {
-      "seller_id": "90124",
-      "seller_type": "PUBLISHER",
-      "domain": "weatherbug.com",
-      "name": "WeatherBug"
-    },
-    {
-      "seller_id": "92344",
-      "seller_type": "PUBLISHER",
-      "domain": "maglab.com.tr",
-      "name": "MAGICLAB"
-    },
-    {
-      "seller_id": "TASWEB122",
-      "seller_type": "PUBLISHER",
-      "domain": "moneycontrol.com",
-      "name": "moneycontrol"
-    },
-    {
-      "seller_id": "TAS-105",
-      "seller_type": "PUBLISHER",
-      "domain": "mytvsuper.com",
-      "name": "mytvsuper"
-    },
-    {
-      "seller_id": "94730",
-      "seller_type": "PUBLISHER",
-      "domain": "vestastream.com",
-      "name": "Vesta Stream"
-    },
-    {
-      "seller_id": "92341",
-      "seller_type": "PUBLISHER",
-      "domain": "vyre.tv",
-      "name": "Vyre TV"
-    },
-    {
-      "seller_id": "12239",
-      "seller_type": "INTERMEDIARY",
-      "domain": "bidmachine.io",
-      "name": "Bidmachine"
     }
   ]
 }
