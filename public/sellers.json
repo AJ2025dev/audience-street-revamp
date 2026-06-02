@@ -65,9 +65,9 @@
     },
     {
       "seller_id": "90123",
-      "seller_type": "INTERMEDIARY",
-      "domain": "metropcs.mobi",
-      "name": "Aura_MetroZone"
+      "seller_type": "PUBLISHER",
+      "domain": "blackout.barcelona",
+      "name": "Blackout Barcelona"
     },
     {
       "seller_id": "90124",
@@ -87,24 +87,7 @@
       "domain": "hungrystudio.com",
       "name": "Hungry Studio"
     },
-    {
-      "seller_id": "90136",
-      "seller_type": "PUBLISHER",
-      "domain": "audiomack.com",
-      "name": "Audiomack"
-    },
-    {
-      "seller_id": "90147",
-      "seller_type": "PUBLISHER",
-      "domain": "scopely.com",
-      "name": "Scopely"
-    },
-    {
-      "seller_id": "9011133",
-      "seller_type": "PUBLISHER",
-      "domain": "pocketfm.com",
-      "name": "Pocket FM Private Limited"
-    },
+
     {
       "seller_id": "92311",
       "seller_type": "INTERMEDIARY",
@@ -120,8 +103,8 @@
     {
       "seller_id": "92313",
       "seller_type": "PUBLISHER",
-      "domain": "gamovation.com",
-      "name": "GamoVation"
+      "domain": "wattpad.com",
+      "name": "Wattpad"
     },
     {
       "seller_id": "92314",
@@ -132,8 +115,8 @@
     {
       "seller_id": "92315",
       "seller_type": "PUBLISHER",
-      "domain": "bluetile.com",
-      "name": "Bluetile Games"
+      "domain": "besoccer.com",
+      "name": "BESOCCER"
     },
     {
       "seller_id": "92316",
@@ -236,60 +219,6 @@
       "seller_type": "PUBLISHER",
       "domain": "rooftopgames.com.tr",
       "name": "Rooftop Games"
-    },
-    {
-      "seller_id": "94730",
-      "seller_type": "PUBLISHER",
-      "domain": "vestastream.com",
-      "name": "Vesta Stream"
-    },
-    {
-      "seller_id": "96412",
-      "seller_type": "PUBLISHER",
-      "domain": "callapp.com",
-      "name": "CallApp Caller ID, Call Recorder & Spam Blocker"
-    },
-    {
-      "seller_id": "N19T95",
-      "seller_type": "BOTH",
-      "domain": "roposo.com",
-      "name": "Glance InMobi Pte. Ltd."
-    },
-    {
-      "seller_id": "TAS-105",
-      "seller_type": "PUBLISHER",
-      "domain": "mytvsuper.com",
-      "name": "mytvsuper"
-    },
-    {
-      "seller_id": "TAS-113",
-      "seller_type": "PUBLISHER",
-      "domain": "appi-fy.ai",
-      "name": "Appify Retail"
-    },
-    {
-      "seller_id": "TASWEB122",
-      "seller_type": "PUBLISHER",
-      "domain": "moneycontrol.com",
-      "name": "moneycontrol"
-    },
-    {
-      "seller_id": "tas-703",
-      "seller_type": "PUBLISHER",
-      "domain": "playsimple.in",
-      "name": "Playsimple"
-    },
-    {
-      "seller_id": "tas-704",
-      "seller_type": "PUBLISHER",
-      "domain": "cleverside.com",
-      "name": "Cleverside"
-    },
-    {
-      "seller_id": "tas-706",
-      "seller_type": "PUBLISHER",
-      "domain": "onefootball.com",
-      "name": "Onefootball"
     }
   ]
 }
