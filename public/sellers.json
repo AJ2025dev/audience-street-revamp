@@ -87,7 +87,48 @@
       "domain": "hungrystudio.com",
       "name": "Hungry Studio"
     },
-
+    {
+      "seller_id": "90136",
+      "seller_type": "PUBLISHER",
+      "domain": "audiomack.com",
+      "name": "Audiomack"
+    },
+    {
+      "seller_id": "90137",
+      "seller_type": "PUBLISHER",
+      "domain": "wattpad.com",
+      "name": "Wattpad"
+    },
+    {
+      "seller_id": "90147",
+      "seller_type": "PUBLISHER",
+      "domain": "scopely.com",
+      "name": "Scopely"
+    },
+    {
+      "seller_id": "90150",
+      "seller_type": "PUBLISHER",
+      "domain": "say.games",
+      "name": "Say Games"
+    },
+    {
+      "seller_id": "90153",
+      "seller_type": "PUBLISHER",
+      "domain": "wildlifestudios.com",
+      "name": "Wildlife Studios"
+    },
+    {
+      "seller_id": "90156",
+      "seller_type": "PUBLISHER",
+      "domain": "fugo.com.tr",
+      "name": "Fugo Games"
+    },
+    {
+      "seller_id": "90157",
+      "seller_type": "PUBLISHER",
+      "domain": "besoccer.com",
+      "name": "BeSoccer"
+    },
     {
       "seller_id": "92311",
       "seller_type": "INTERMEDIARY",
@@ -101,22 +142,10 @@
       "name": "Verve"
     },
     {
-      "seller_id": "92313",
-      "seller_type": "PUBLISHER",
-      "domain": "wattpad.com",
-      "name": "Wattpad"
-    },
-    {
       "seller_id": "92314",
       "seller_type": "PUBLISHER",
       "domain": "zynga.com",
       "name": "Zynga"
-    },
-    {
-      "seller_id": "92315",
-      "seller_type": "PUBLISHER",
-      "domain": "besoccer.com",
-      "name": "BESOCCER"
     },
     {
       "seller_id": "92316",
@@ -219,6 +248,24 @@
       "seller_type": "PUBLISHER",
       "domain": "rooftopgames.com.tr",
       "name": "Rooftop Games"
+    },
+    {
+      "seller_id": "96412",
+      "seller_type": "PUBLISHER",
+      "domain": "callapp.com",
+      "name": "CallApp"
+    },
+    {
+      "seller_id": "tas-703",
+      "seller_type": "PUBLISHER",
+      "domain": "playsimple.in",
+      "name": "Playsimple"
+    },
+    {
+      "seller_id": "tas-704",
+      "seller_type": "PUBLISHER",
+      "domain": "cleverside.com",
+      "name": "Cleverside"
     }
   ]
 }
