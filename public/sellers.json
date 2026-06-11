@@ -266,6 +266,24 @@
       "seller_type": "PUBLISHER",
       "domain": "cleverside.com",
       "name": "Cleverside"
+    },
+    {
+      "seller_id": "tas-705",
+      "seller_type": "INTERMEDIARY",
+      "domain": "showcaseads.com",
+      "name": "Showcase Ads"
+    },
+    {
+      "seller_id": "tas-706",
+      "seller_type": "INTERMEDIARY",
+      "domain": "teqfire.com",
+      "name": "Teqfire"
+    },
+    {
+      "seller_id": "tas-707",
+      "seller_type": "INTERMEDIARY",
+      "domain": "clickmob.com",
+      "name": "Clickmob"
     }
   ]
 }
