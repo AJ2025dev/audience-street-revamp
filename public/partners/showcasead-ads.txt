@@ -1,8 +1,8 @@
-# ads.txt for showcaseads.com
+# ads.txt for showcasead.com
 # Authorized Digital Sellers - IAB Tech Lab
 
 # Direct (replace with your own account)
-showcaseads.com, SHOWCASE_PUB_ID, DIRECT
+showcasead.com, SHOWCASE_PUB_ID, DIRECT
 
 # The Audience Street - Direct partner
 theaudiencestreet.com, tas-705, DIRECT
@@ -141,6 +141,6 @@ xandr.com, 13799, RESELLER
 xandr.com, 15840, RESELLER
 xandr.com, 17779, RESELLER
 zmaticoo.com, 5135004, RESELLER
-showcaseads.com, tas-705, RESELLER
+showcasead.com, tas-705, RESELLER
 teqfire.com, tas-706, RESELLER
 clickmob.com, tas-707, RESELLER

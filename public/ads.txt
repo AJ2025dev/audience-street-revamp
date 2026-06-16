@@ -137,6 +137,6 @@ xandr.com, 15840, RESELLER
 xandr.com, 17779, RESELLER
 zmaticoo.com, 5135004, RESELLER
 # TAS Intermediary Partners
-showcaseads.com, tas-705, RESELLER
+showcasead.com, tas-705, RESELLER
 teqfire.com, tas-706, RESELLER
 clickmob.com, tas-707, RESELLER
