@@ -82,7 +82,7 @@
       "name": "Lionstudios"
     },
     {
-      "seller_id": "90133",
+      "seller_id": "92312",
       "seller_type": "PUBLISHER",
       "domain": "hungrystudio.com",
       "name": "Hungry Studio"
@@ -131,12 +131,6 @@
     },
     {
       "seller_id": "92311",
-      "seller_type": "INTERMEDIARY",
-      "domain": "pubnative.net",
-      "name": "Verve"
-    },
-    {
-      "seller_id": "92312",
       "seller_type": "INTERMEDIARY",
       "domain": "pubnative.net",
       "name": "Verve"
