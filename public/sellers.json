@@ -88,6 +88,12 @@
       "name": "Hungry Studio"
     },
     {
+      "seller_id": "90133",
+      "seller_type": "PUBLISHER",
+      "domain": "gurugame.ai",
+      "name": "GURU GAME"
+    },
+    {
       "seller_id": "90136",
       "seller_type": "PUBLISHER",
       "domain": "audiomack.com",
@@ -106,7 +112,7 @@
       "name": "Scopely"
     },
     {
-      "seller_id": "90133",
+      "seller_id": "90150",
       "seller_type": "PUBLISHER",
       "domain": "say.games",
       "name": "Say Games"
@@ -122,6 +128,48 @@
       "seller_type": "PUBLISHER",
       "domain": "fugo.com.tr",
       "name": "Fugo Games"
+    },
+    {
+      "seller_id": "90165",
+      "seller_type": "PUBLISHER",
+      "domain": "pocketfm.com",
+      "name": "Pocket FM"
+    },
+    {
+      "seller_id": "90160",
+      "seller_type": "PUBLISHER",
+      "domain": "brainium.com",
+      "name": "Brainium"
+    },
+    {
+      "seller_id": "90161",
+      "seller_type": "PUBLISHER",
+      "domain": "idailybible.com",
+      "name": "idailybible"
+    },
+    {
+      "seller_id": "90163",
+      "seller_type": "PUBLISHER",
+      "domain": "falcongames.com",
+      "name": "Falcon Game Studio - MAX"
+    },
+    {
+      "seller_id": "90166",
+      "seller_type": "PUBLISHER",
+      "name": "Wooga",
+      "domain": "wooga.com"
+    },
+    {
+      "seller_id": "90167",
+      "seller_type": "PUBLISHER",
+      "name": "Musi Inc.",
+      "domain": "feelthemusi.com"
+    },
+    {
+      "seller_id": "90168",
+      "seller_type": "PUBLISHER",
+      "name": "Moonfrog Labs",
+      "domain": "moonfroglabs.com"
     },
     {
       "seller_id": "92315",
