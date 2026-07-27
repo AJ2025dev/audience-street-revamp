@@ -8,7 +8,17 @@ const TermsConditions = () => {
       <main className="pt-24 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">Terms and Conditions</h1>
-          <p className="text-muted-foreground mb-8">Last updated: December 29, 2024</p>
+          <p className="text-muted-foreground mb-8">Last updated: July 27, 2026</p>
+
+          <section className="mb-8 p-4 border border-border rounded-lg bg-muted/30">
+            <p className="text-foreground font-medium mb-2">Merchant of Record & Governing Law</p>
+            <p className="text-muted-foreground">
+              Orders placed on this website are processed by <strong>The Audience Street</strong>, located at
+              220 Davidson Avenue, Somerset, NJ 08873, United States. These Terms and Conditions, and any
+              transaction completed through this website, are governed by the laws of the State of New Jersey,
+              United States, without regard to its conflict of law provisions.
+            </p>
+          </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-foreground">1. Agreement to Terms</h2>
@@ -211,12 +221,14 @@ const TermsConditions = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-foreground">14. Governing Law</h2>
             <p className="text-muted-foreground mb-4">
-              These Terms shall be governed and construed in accordance with the laws of the United Arab Emirates, 
-              without regard to its conflict of law provisions.
+              These Terms and Conditions, and any order or transaction processed through this website, shall be
+              governed by and construed in accordance with the laws of the <strong>State of New Jersey, United
+              States of America</strong>, without regard to its conflict of law provisions. Your order will be
+              processed in accordance with the laws of the State of New Jersey.
             </p>
             <p className="text-muted-foreground mb-4">
-              Our failure to enforce any right or provision of these Terms will not be considered a waiver of those 
-              rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the 
+              Our failure to enforce any right or provision of these Terms will not be considered a waiver of those
+              rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the
               remaining provisions will remain in effect.
             </p>
           </section>
@@ -224,10 +236,11 @@ const TermsConditions = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-foreground">15. Dispute Resolution</h2>
             <p className="text-muted-foreground mb-4">
-              Any disputes arising out of or relating to these Terms or the Services shall first be attempted to 
-              be resolved through good-faith negotiations between the parties. If such negotiations fail, the 
-              dispute shall be submitted to binding arbitration in Dubai, UAE, in accordance with the rules of 
-              the Dubai International Arbitration Centre.
+              Any disputes arising out of or relating to these Terms or the Services shall first be attempted to
+              be resolved through good-faith negotiations between the parties. If such negotiations fail, the
+              dispute shall be submitted to the exclusive jurisdiction of the state and federal courts located in
+              Somerset County, State of New Jersey, United States, and each party consents to the personal
+              jurisdiction and venue of such courts.
             </p>
           </section>
 
@@ -251,9 +264,11 @@ const TermsConditions = () => {
               If you have any questions about these Terms, please contact us:
             </p>
             <ul className="text-muted-foreground space-y-2">
+              <li><strong>Merchant / Registered Business:</strong> The Audience Street</li>
+              <li><strong>Registered Address:</strong> 220 Davidson Avenue, Somerset, NJ 08873, United States</li>
               <li><strong>Email:</strong> support@theaudiencestreet.com</li>
               <li><strong>Phone:</strong> +91 9014426692</li>
-              <li><strong>Address:</strong> Wework Krishemerald, Kondapur Main Road, Hyderabad 500081, India</li>
+              <li><strong>India Office:</strong> Wework Krishemerald, Kondapur Main Road, Hyderabad 500081, India</li>
               <li><strong>UAE Office:</strong> 18th Floor, Creative Tower, Hamad Ben Mohammed St., P.O Box 4422, Fujairah, UAE</li>
             </ul>
           </section>

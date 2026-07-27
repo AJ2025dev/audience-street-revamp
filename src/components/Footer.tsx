@@ -89,13 +89,22 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Bottom Section */}
+        {/* Governing Law Disclosure (Card scheme compliance) */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
+          <p className="text-primary-foreground/70 text-xs md:text-sm text-center mb-6 max-w-4xl mx-auto">
+            The Audience Street is registered at 220 Davidson Avenue, Somerset, NJ 08873, United States.
+            All orders and transactions processed through this website are governed by the laws of the
+            State of New Jersey, United States. Payments are processed in USD unless otherwise stated at checkout.
+          </p>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/70 text-sm mb-4 md:mb-0">
-              © 2024 The Audience Street. All rights reserved.
+              © 2026 The Audience Street. All rights reserved.
             </p>
-            
+
             {/* Social Links */}
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
