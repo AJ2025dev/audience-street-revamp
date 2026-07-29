@@ -332,6 +332,18 @@
       "seller_type": "INTERMEDIARY",
       "domain": "clickmob.com",
       "name": "Clickmob"
+    },
+    {
+      "seller_id": "92169",
+      "seller_type": "INTERMEDIARY",
+      "name": "Anzu.io",
+      "domain": "anzu.io"
+    },
+    {
+      "seller_id": "92168",
+      "seller_type": "INTERMEDIARY",
+      "name": "AlgoriX",
+      "domain": "algorix.co"
     }
   ]
 }
