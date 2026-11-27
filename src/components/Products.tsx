@@ -12,7 +12,6 @@ const Products = () => (
       id="leadpath"
       icon={Workflow}
       name="Leadpath"
-      status="In development · pilot discussions open"
       headline="Real-time lead operations, under your brand."
       copy="Leadpath is being developed to help lead-generation teams manage campaigns, connect acquisition sources, qualify incoming leads, and route them to buyers through a configurable workflow."
       features={[
