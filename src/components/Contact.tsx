@@ -27,8 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 hero-bg relative overflow-hidden scroll-mt-16">
-      <div className="absolute inset-0 grid-bg" aria-hidden="true" />
+    <section id="contact" className="py-16 md:py-24 surface-media relative overflow-hidden scroll-mt-16">
       <div className="relative z-10 container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14">
         <div>
           <p className="eyebrow mb-3">Contact</p>
@@ -56,7 +55,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <form onSubmit={submit} className="glass glow-frame rounded-3xl p-6 md:p-8 space-y-4">
+        <form onSubmit={submit} className="glass rounded-lg p-6 md:p-8 space-y-4">
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="space-y-1.5">
               <Label htmlFor="c-name">Name</Label>

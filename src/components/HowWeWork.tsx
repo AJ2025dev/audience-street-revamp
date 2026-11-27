@@ -6,7 +6,7 @@ const steps = [
 ];
 
 const HowWeWork = () => (
-  <section id="how-we-work" className="py-16 md:py-24 bg-background">
+  <section id="how-we-work" className="py-16 md:py-24 surface-ink">
     <div className="container-padding max-w-7xl mx-auto">
       <div className="max-w-2xl mb-10 md:mb-14">
         <p className="eyebrow mb-3">Process</p>
@@ -15,9 +15,9 @@ const HowWeWork = () => (
       </div>
       <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {steps.map((s, i) => (
-          <li key={s.title} className="card-elegant rounded-2xl p-7">
-            <span className="font-serif italic text-4xl text-gradient">0{i + 1}</span>
-            <h3 className="text-xl font-semibold text-foreground mt-2 mb-2">{s.title}</h3>
+          <li key={s.title} className="border-t border-border pt-6 pb-2">
+            <span className="font-serif italic text-5xl text-primary">0{i + 1}</span>
+            <h3 className="text-xl font-semibold text-foreground mt-4 mb-2">{s.title}</h3>
             <p className="text-muted-foreground">{s.text}</p>
           </li>
         ))}

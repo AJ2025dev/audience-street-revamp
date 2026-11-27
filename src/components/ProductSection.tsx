@@ -20,11 +20,11 @@ interface ProductSectionProps {
 }
 
 const ProductSection = ({ id, icon: Icon, name, status, headline, copy, features, ctas, video, reverse, muted }: ProductSectionProps) => (
-  <section id={id} className={`py-16 md:py-24 scroll-mt-16 relative overflow-hidden ${muted ? "bg-secondary/60 border-y border-border/60" : "bg-background"}`}>
+  <section id={id} className={`py-16 md:py-24 scroll-mt-16 relative overflow-hidden ${muted ? "surface-conversation" : id === "dsp" ? "surface-media" : "bg-background"}`}>
     <div className="container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
       <div className={reverse ? "lg:order-2" : ""}>
         <div className="flex flex-wrap items-center gap-2 mb-5">
-          <span className="inline-flex items-center px-3 py-1.5 glass rounded-full text-foreground font-medium text-sm">
+          <span className="inline-flex items-center py-1.5 text-foreground font-semibold text-sm">
             <Icon className="w-4 h-4 mr-2 text-primary" />
             {name}
           </span>

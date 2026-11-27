@@ -2,17 +2,16 @@ import { ArrowRight, Workflow, MessageSquare, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const offerings = [
-  { icon: Workflow, name: "Leadpath", text: "Real-time lead operations", href: "#leadpath" },
-  { icon: MessageSquare, name: "ChatStreet", text: "Conversational advertising", href: "#chatstreet" },
-  { icon: Target, name: "DSP & Curation", text: "Curated programmatic media", href: "#dsp" },
+  { icon: Workflow, name: "Leadpath", text: "Real-time lead operations", href: "#leadpath", surface: "offering-growth" },
+  { icon: MessageSquare, name: "ChatStreet", text: "Conversational advertising", href: "#chatstreet", surface: "offering-conversation" },
+  { icon: Target, name: "DSP & Curation", text: "Curated programmatic media", href: "#dsp", surface: "offering-media" },
 ];
 
 const Hero = () => (
   <section id="home" className="relative hero-bg overflow-hidden pt-16">
-    <div className="absolute inset-0 grid-bg" aria-hidden="true" />
-    <div className="relative z-10 container-padding max-w-7xl mx-auto pt-24 md:pt-32 pb-20 md:pb-28">
+    <div className="relative z-10 container-padding max-w-7xl mx-auto pt-16 md:pt-24 pb-12 md:pb-16">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
-        <span className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs font-medium text-muted-foreground mb-8">
+        <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase text-foreground mb-8">
           <span className="w-1.5 h-1.5 rounded-full bg-accent" />
           Media & ad-tech · The Audience Street
         </span>
@@ -35,17 +34,17 @@ const Hero = () => (
           </Button>
         </div>
       </div>
-      <div className="grid sm:grid-cols-3 gap-4 mt-16 md:mt-24 max-w-5xl mx-auto">
-        {offerings.map(({ icon: Icon, name, text, href }) => (
-          <a key={name} href={href} className="glass glow-frame group rounded-2xl p-5 flex items-center gap-4 transition-transform hover:border-foreground/40">
-            <span className="w-11 h-11 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0">
+      <div className="grid sm:grid-cols-3 gap-3 mt-12 md:mt-16 max-w-5xl mx-auto">
+        {offerings.map(({ icon: Icon, name, text, href, surface }) => (
+          <a key={name} href={href} className={`${surface} text-foreground group rounded-lg p-5 flex items-center gap-4 transition-transform hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary`}>
+            <span className="w-11 h-11 rounded-lg bg-foreground/5 flex items-center justify-center flex-shrink-0">
               <Icon className="w-5 h-5 text-primary" />
             </span>
-            <span className="flex-1">
+            <span className="flex-1 min-w-0">
               <span className="block font-display font-semibold">{name}</span>
               <span className="block text-sm text-muted-foreground">{text}</span>
             </span>
-            <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+            <ArrowRight className="w-4 h-4 shrink-0 text-foreground transition-transform group-hover:translate-x-1" />
           </a>
         ))}
       </div>

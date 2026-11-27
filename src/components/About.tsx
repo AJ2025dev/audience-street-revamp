@@ -7,7 +7,7 @@ const pillars = [
 ];
 
 const About = () => (
-  <section id="about" className="py-16 md:py-24 bg-secondary/60 border-y border-border/60 scroll-mt-16">
+  <section id="about" className="py-16 md:py-24 bg-background scroll-mt-16">
     <div className="container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14">
       <div>
         <p className="eyebrow mb-3">About</p>
@@ -21,7 +21,7 @@ const About = () => (
       </div>
       <div className="space-y-4">
         {pillars.map(({ icon: Icon, title, text }) => (
-          <div key={title} className="flex items-start p-5 rounded-2xl card-elegant">
+          <div key={title} className="flex items-start py-5 border-b border-border">
             <div className="w-11 h-11 bg-primary/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
               <Icon className="w-5 h-5 text-primary" />
             </div>

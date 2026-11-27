@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,9 +27,19 @@ All colors MUST be HSL.
     --border: 35 15% 84%;
     --input: 35 15% 80%;
     --ring: 224 76% 44%;
+    --surface-growth: 151 27% 85%;
+    --surface-growth-strong: 151 28% 76%;
+    --surface-conversation: 18 65% 90%;
+    --surface-conversation-strong: 18 65% 82%;
+    --surface-media: 214 45% 92%;
+    --surface-ink: 150 8% 11%;
+    --surface-ink-foreground: 45 22% 95%;
+    --surface-ink-muted: 150 7% 71%;
+    --surface-ink-border: 150 8% 28%;
+    --highlight: 78 66% 72%;
     --destructive: 0 80% 62%;
     --destructive-foreground: 0 0% 98%;
-    --radius: 0.875rem;
+    --radius: 0.5rem;
 
     --gradient-hero: linear-gradient(0deg, hsl(30 10% 9%), hsl(30 10% 9%));
     --gradient-section: linear-gradient(180deg, hsl(40 33% 96%) 0%, hsl(38 28% 93%) 100%);
@@ -63,7 +72,8 @@ All colors MUST be HSL.
   }
 
   h1, h2, h3, h4 {
-    @apply font-display tracking-tight;
+    @apply font-display;
+    letter-spacing: 0;
   }
   
   html {
@@ -75,7 +85,47 @@ All colors MUST be HSL.
   /* Hero Section Styles */
   .hero-bg {
     position: relative;
+    background: hsl(var(--surface-growth));
+  }
+
+  .surface-conversation {
+    background: hsl(var(--surface-conversation));
+  }
+
+  .surface-media {
+    background: hsl(var(--surface-media));
+  }
+
+  .surface-ink {
+    --background: var(--surface-ink);
+    --foreground: var(--surface-ink-foreground);
+    --muted-foreground: var(--surface-ink-muted);
+    --border: var(--surface-ink-border);
+    --primary: var(--highlight);
+    --accent: var(--highlight);
+    --secondary: var(--surface-ink-border);
+    --muted: var(--surface-ink-border);
     background: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  .offering-growth {
+    background: hsl(var(--surface-growth-strong));
+  }
+
+  .offering-conversation {
+    background: hsl(var(--surface-conversation-strong));
+  }
+
+  .offering-media {
+    --foreground: var(--primary-foreground);
+    --muted-foreground: 224 40% 88%;
+    --secondary: 224 72% 52%;
+    background: hsl(var(--primary));
+  }
+
+  .offering-media svg {
+    color: hsl(var(--foreground));
   }
 
   .grid-bg {
@@ -139,5 +189,13 @@ All colors MUST be HSL.
   /* Utility Classes */
   .container-padding {
     @apply px-4 sm:px-6 lg:px-8 xl:px-12;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }

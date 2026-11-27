@@ -29,6 +29,11 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'surface-growth': 'hsl(var(--surface-growth))',
+				'surface-conversation': 'hsl(var(--surface-conversation))',
+				'surface-media': 'hsl(var(--surface-media))',
+				'surface-ink': 'hsl(var(--surface-ink))',
+				highlight: 'hsl(var(--highlight))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))',
