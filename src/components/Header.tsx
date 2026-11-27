@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border/60">
       <div className="container-padding max-w-7xl mx-auto">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -24,9 +24,9 @@ const Header = () => {
             <img 
               src={tasLogo} 
               alt="The Audience Street" 
-              className="h-10 w-10 mr-3"
+              className="h-9 w-9 mr-3 rounded-lg bg-foreground p-1"
             />
-            <span className="text-xl font-bold text-gradient">
+            <span className="text-lg font-display font-bold text-foreground tracking-tight">
               The Audience Street
             </span>
           </div>
@@ -37,7 +37,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-muted-foreground hover:text-primary transition-colors duration-200 font-medium"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
@@ -77,7 +77,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-muted-foreground hover:text-primary transition-colors duration-200 font-medium"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

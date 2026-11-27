@@ -7,10 +7,11 @@ const pillars = [
 ];
 
 const About = () => (
-  <section id="about" className="py-16 md:py-24 bg-card scroll-mt-16">
+  <section id="about" className="py-16 md:py-24 bg-card/40 border-y border-border/60 scroll-mt-16">
     <div className="container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14">
       <div>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">About The Audience Street</h2>
+        <p className="eyebrow mb-3">About</p>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-4">About The Audience Street</h2>
         <p className="text-base sm:text-lg text-muted-foreground mb-4">
           The Audience Street is a media and ad-tech company combining programmatic expertise, audience curation, campaign execution, and technology.
         </p>
@@ -20,7 +21,7 @@ const About = () => (
       </div>
       <div className="space-y-4">
         {pillars.map(({ icon: Icon, title, text }) => (
-          <div key={title} className="flex items-start p-5 rounded-xl border border-border">
+          <div key={title} className="flex items-start p-5 rounded-2xl card-elegant">
             <div className="w-11 h-11 bg-primary/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
               <Icon className="w-5 h-5 text-primary" />
             </div>

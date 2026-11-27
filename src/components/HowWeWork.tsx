@@ -6,16 +6,17 @@ const steps = [
 ];
 
 const HowWeWork = () => (
-  <section id="how-we-work" className="py-16 md:py-24 section-bg">
+  <section id="how-we-work" className="py-16 md:py-24 bg-background">
     <div className="container-padding max-w-7xl mx-auto">
       <div className="max-w-2xl mb-10 md:mb-14">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3">How we work</h2>
+        <p className="eyebrow mb-3">Process</p>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-3">How we work</h2>
         <p className="text-base sm:text-lg text-muted-foreground">A simple process, whichever platform or service fits your goal.</p>
       </div>
       <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {steps.map((s, i) => (
-          <li key={s.title} className="card-elegant rounded-2xl p-6">
-            <span className="text-sm font-bold text-accent">0{i + 1}</span>
+          <li key={s.title} className="card-elegant rounded-2xl p-7">
+            <span className="font-serif italic text-4xl text-gradient">0{i + 1}</span>
             <h3 className="text-xl font-semibold text-foreground mt-2 mb-2">{s.title}</h3>
             <p className="text-muted-foreground">{s.text}</p>
           </li>

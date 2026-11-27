@@ -27,34 +27,36 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 hero-bg relative scroll-mt-16">
+    <section id="contact" className="py-16 md:py-24 hero-bg relative overflow-hidden scroll-mt-16">
+      <div className="absolute inset-0 grid-bg" aria-hidden="true" />
       <div className="relative z-10 container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14">
         <div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground mb-4">Talk to our team</h2>
-          <p className="text-lg text-primary-foreground/85 mb-8">
+          <p className="eyebrow mb-3">Contact</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-4">Talk to our team</h2>
+          <p className="text-lg text-muted-foreground mb-8">
             Tell us about your goals and which offering you're interested in. We'll get back to you.
           </p>
           <div className="space-y-3 mb-8">
-            <a href="mailto:support@theaudiencestreet.com" className="flex items-center text-primary-foreground hover:underline">
-              <Mail className="w-5 h-5 mr-3" /> support@theaudiencestreet.com
+            <a href="mailto:support@theaudiencestreet.com" className="flex items-center text-foreground hover:underline">
+              <Mail className="w-5 h-5 mr-3 text-primary" /> support@theaudiencestreet.com
             </a>
-            <a href="tel:+919014426692" className="flex items-center text-primary-foreground hover:underline">
-              <Phone className="w-5 h-5 mr-3" /> +91 9014426692
+            <a href="tel:+919014426692" className="flex items-center text-foreground hover:underline">
+              <Phone className="w-5 h-5 mr-3 text-primary" /> +91 9014426692
             </a>
           </div>
           <div className="space-y-4">
             {locations.map((l) => (
               <div key={l.country} className="flex items-start">
-                <MapPin className="w-4 h-4 text-primary-foreground mt-1 mr-3 flex-shrink-0" />
+                <MapPin className="w-4 h-4 text-primary mt-1 mr-3 flex-shrink-0" />
                 <div>
-                  <p className="font-medium text-primary-foreground text-sm">{l.country}</p>
-                  <p className="text-primary-foreground/75 text-sm">{l.address}</p>
+                  <p className="font-medium text-foreground text-sm">{l.country}</p>
+                  <p className="text-muted-foreground text-sm">{l.address}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <form onSubmit={submit} className="bg-card rounded-2xl p-6 md:p-8 shadow-lg space-y-4">
+        <form onSubmit={submit} className="glass glow-frame rounded-3xl p-6 md:p-8 space-y-4">
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="space-y-1.5">
               <Label htmlFor="c-name">Name</Label>

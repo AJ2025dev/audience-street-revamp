@@ -15,7 +15,7 @@ const ProductVideo = ({ src, poster, title, description }: ProductVideoProps) =>
   const [showText, setShowText] = useState(false);
 
   return (
-    <div className="card-elegant rounded-2xl p-3 md:p-4">
+    <div className="relative glass glow-frame rounded-3xl p-2.5 md:p-3">
       <div className="relative aspect-video rounded-xl overflow-hidden bg-muted">
         {src ? (
           <>
@@ -36,11 +36,11 @@ const ProductVideo = ({ src, poster, title, description }: ProductVideoProps) =>
                   setStarted(true);
                   ref.current?.play();
                 }}
-                className="absolute inset-0 flex items-center justify-center bg-primary/20 hover:bg-primary/30 transition-colors group"
+                className="absolute inset-0 flex items-center justify-center bg-background/30 hover:bg-background/15 transition-colors group"
                 aria-label={`Play ${title}`}
               >
-                <span className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-card shadow-lg flex items-center justify-center group-hover:scale-105 transition-transform">
-                  <Play className="w-7 h-7 md:w-8 md:h-8 text-primary ml-1" />
+                <span className="w-16 h-16 md:w-20 md:h-20 rounded-full btn-hero flex items-center justify-center group-hover:scale-105 transition-transform">
+                  <Play className="w-7 h-7 md:w-8 md:h-8 text-primary-foreground ml-1" />
                 </span>
               </button>
             )}
@@ -57,12 +57,12 @@ const ProductVideo = ({ src, poster, title, description }: ProductVideoProps) =>
         type="button"
         onClick={() => setShowText((v) => !v)}
         aria-expanded={showText}
-        className="mt-3 inline-flex items-center text-sm font-medium text-primary hover:underline"
+        className="mt-3 ml-2 mb-1 inline-flex items-center text-sm font-medium text-primary hover:underline"
       >
         <FileText className="w-4 h-4 mr-1.5" />
         {showText ? "Hide video description" : "Read video description"}
       </button>
-      {showText && <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{description}</p>}
+      {showText && <p className="mt-2 px-2 pb-2 text-sm text-muted-foreground leading-relaxed">{description}</p>}
     </div>
   );
 };
