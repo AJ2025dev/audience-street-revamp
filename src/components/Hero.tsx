@@ -37,8 +37,8 @@ const Hero = () => (
       </div>
       <div className="grid sm:grid-cols-3 gap-4 mt-16 md:mt-24 max-w-5xl mx-auto">
         {offerings.map(({ icon: Icon, name, text, href }) => (
-          <a key={name} href={href} className="glass glow-frame group rounded-2xl p-5 flex items-center gap-4 transition-transform hover:-translate-y-1">
-            <span className="w-11 h-11 rounded-xl bg-primary/15 flex items-center justify-center flex-shrink-0">
+          <a key={name} href={href} className="glass glow-frame group rounded-2xl p-5 flex items-center gap-4 transition-transform hover:border-foreground/40">
+            <span className="w-11 h-11 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0">
               <Icon className="w-5 h-5 text-primary" />
             </span>
             <span className="flex-1">

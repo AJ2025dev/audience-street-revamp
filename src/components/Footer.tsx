@@ -36,7 +36,7 @@ const Footer = () => {
               <img 
                 src={tasLogo} 
                 alt="The Audience Street" 
-                className="h-9 w-9 mr-3 rounded-lg bg-foreground p-1"
+                className="h-9 w-9 mr-3 rounded-lg bg-card border border-border p-1"
               />
               <span className="text-xl font-bold">
                 The Audience Street

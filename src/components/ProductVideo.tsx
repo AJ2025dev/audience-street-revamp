@@ -36,11 +36,11 @@ const ProductVideo = ({ src, poster, title, description }: ProductVideoProps) =>
                   setStarted(true);
                   ref.current?.play();
                 }}
-                className="absolute inset-0 flex items-center justify-center bg-background/30 hover:bg-background/15 transition-colors group"
+                className="absolute inset-0 flex items-center justify-center bg-foreground/10 hover:bg-foreground/0 transition-colors group"
                 aria-label={`Play ${title}`}
               >
-                <span className="w-16 h-16 md:w-20 md:h-20 rounded-full btn-hero flex items-center justify-center group-hover:scale-105 transition-transform">
-                  <Play className="w-7 h-7 md:w-8 md:h-8 text-primary-foreground ml-1" />
+                <span className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-foreground flex items-center justify-center group-hover:scale-105 transition-transform">
+                  <Play className="w-7 h-7 md:w-8 md:h-8 text-background ml-1" />
                 </span>
               </button>
             )}

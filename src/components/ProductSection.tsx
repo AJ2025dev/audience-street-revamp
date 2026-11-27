@@ -20,7 +20,7 @@ interface ProductSectionProps {
 }
 
 const ProductSection = ({ id, icon: Icon, name, status, headline, copy, features, ctas, video, reverse, muted }: ProductSectionProps) => (
-  <section id={id} className={`py-16 md:py-24 scroll-mt-16 relative overflow-hidden ${muted ? "bg-card/40 border-y border-border/60" : "bg-background"}`}>
+  <section id={id} className={`py-16 md:py-24 scroll-mt-16 relative overflow-hidden ${muted ? "bg-secondary/60 border-y border-border/60" : "bg-background"}`}>
     <div className="container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
       <div className={reverse ? "lg:order-2" : ""}>
         <div className="flex flex-wrap items-center gap-2 mb-5">
@@ -56,8 +56,7 @@ const ProductSection = ({ id, icon: Icon, name, status, headline, copy, features
         </div>
       </div>
       <div className={`relative ${reverse ? "lg:order-1" : ""}`}>
-        <div className="absolute -inset-10 bg-primary/10 blur-3xl rounded-full" aria-hidden="true" />
-        <ProductVideo title={`${name} overview video`} {...video} />
+                <ProductVideo title={`${name} overview video`} {...video} />
       </div>
     </div>
   </section>

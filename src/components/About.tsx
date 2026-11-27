@@ -7,7 +7,7 @@ const pillars = [
 ];
 
 const About = () => (
-  <section id="about" className="py-16 md:py-24 bg-card/40 border-y border-border/60 scroll-mt-16">
+  <section id="about" className="py-16 md:py-24 bg-secondary/60 border-y border-border/60 scroll-mt-16">
     <div className="container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14">
       <div>
         <p className="eyebrow mb-3">About</p>
