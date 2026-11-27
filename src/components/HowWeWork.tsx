@@ -1,0 +1,28 @@
+const steps = [
+  { title: "Understand", text: "Align on the business goal and audience." },
+  { title: "Curate", text: "Select the right inventory, audience, and campaign approach." },
+  { title: "Activate", text: "Launch through the appropriate platform or managed workflow." },
+  { title: "Measure", text: "Review delivery, engagement, leads, and campaign outcomes." },
+];
+
+const HowWeWork = () => (
+  <section id="how-we-work" className="py-16 md:py-24 section-bg">
+    <div className="container-padding max-w-7xl mx-auto">
+      <div className="max-w-2xl mb-10 md:mb-14">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3">How we work</h2>
+        <p className="text-base sm:text-lg text-muted-foreground">A simple process, whichever platform or service fits your goal.</p>
+      </div>
+      <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        {steps.map((s, i) => (
+          <li key={s.title} className="card-elegant rounded-2xl p-6">
+            <span className="text-sm font-bold text-accent">0{i + 1}</span>
+            <h3 className="text-xl font-semibold text-foreground mt-2 mb-2">{s.title}</h3>
+            <p className="text-muted-foreground">{s.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+);
+
+export default HowWeWork;

@@ -1,139 +1,94 @@
-import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
 
+const locations = [
+  { country: "United States", address: "220 Davidson Avenue, Somerset, NJ 08873" },
+  { country: "India", address: "Wework Krishemerald, Hyderabad 500081" },
+  { country: "UAE", address: "18th Floor, Creative Tower, Hamad Ben Mohammed St., P.O Box 4422. Fujairah. UAE" },
+];
+
+const interests = ["Leadpath", "ChatStreet", "TAS DSP & Audience Curation Platform", "Something else"];
+
+/** The form opens the visitor's email app with a pre-filled message to support@ (no server storage). */
 const Contact = () => {
-  const contactInfo = [
-    {
-      icon: Mail,
-      title: "Email Us",
-      details: "support@theaudiencestreet.com",
-      action: "mailto:support@theaudiencestreet.com"
-    },
-    {
-      icon: Phone,
-      title: "Call Us",
-      details: "+91 9014426692",
-      action: "tel:+919014426692"
-    }
-  ];
+  const [form, setForm] = useState({ name: "", email: "", company: "", interest: interests[0], message: "" });
+  const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
+    setForm({ ...form, [k]: e.target.value });
 
-  const locations = [
-    {
-      country: "India",
-      address: "Wework Krishemerald, Hyderabad 500081"
-    },
-    {
-      country: "United States",
-      address: "220 Davidson Avenue, Somerset, NJ 08873"
-    },
-    {
-      country: "UAE",
-      address: "18th Floor, Creative Tower, Hamad Ben Mohammed St., P.O Box 4422. Fujairah. UAE"
-    }
-  ];
+  const submit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = `Enquiry: ${form.interest} — ${form.company || form.name}`;
+    const body = `Name: ${form.name}\nWork email: ${form.email}\nCompany: ${form.company}\nInterested in: ${form.interest}\n\n${form.message}`;
+    window.location.href = `mailto:support@theaudiencestreet.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
 
   return (
-    <section id="contact" className="py-20 hero-bg relative">
-      <div className="absolute inset-0 bg-primary/5"></div>
-      
-      <div className="relative z-10 container-padding max-w-7xl mx-auto">
-        {/* Section Header */}
-        <div className="text-center mb-12 md:mb-16 animate-fade-in px-4 sm:px-0">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-primary-foreground mb-4 md:mb-6">
-            Ready to Transform Your Business?
-          </h2>
-          <p className="text-lg sm:text-xl text-primary-foreground/80 max-w-3xl mx-auto">
-            Get in touch with our experts today and discover how AI and advanced ad-tech can revolutionize your digital performance.
+    <section id="contact" className="py-16 md:py-24 hero-bg relative scroll-mt-16">
+      <div className="relative z-10 container-padding max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-14">
+        <div>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground mb-4">Talk to our team</h2>
+          <p className="text-lg text-primary-foreground/85 mb-8">
+            Tell us about your goals and which offering you're interested in. We'll get back to you.
           </p>
-        </div>
-
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-          {/* Contact Info */}
-          <div className="animate-slide-up">
-            <h3 className="text-xl sm:text-2xl font-bold text-primary-foreground mb-6 md:mb-8">
-              Let's Start a Conversation
-            </h3>
-            
-            <div className="space-y-6 mb-8">
-              {contactInfo.map((info, index) => {
-                const Icon = info.icon;
-                return (
-                  <a
-                    key={index}
-                    href={info.action}
-                    className="flex items-center p-4 bg-primary-foreground/10 backdrop-blur-sm rounded-lg hover:bg-primary-foreground/20 transition-all duration-300 group"
-                  >
-                    <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mr-4">
-                      <Icon className="w-6 h-6 text-accent" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-primary-foreground mb-1">{info.title}</h4>
-                      <p className="text-primary-foreground/70 group-hover:text-primary-foreground transition-colors">
-                        {info.details}
-                      </p>
-                    </div>
-                  </a>
-                );
-              })}
-            </div>
-
-            <div className="p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-lg">
-              <h4 className="font-semibold text-primary-foreground mb-4">
-                Our Locations
-              </h4>
-              <div className="space-y-4">
-                {locations.map((location, index) => (
-                  <div key={index} className="flex items-start">
-                    <MapPin className="w-4 h-4 text-accent mt-1 mr-3 flex-shrink-0" />
-                    <div>
-                      <h5 className="font-medium text-primary-foreground text-sm">{location.country}</h5>
-                      <p className="text-primary-foreground/70 text-sm">{location.address}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="space-y-3 mb-8">
+            <a href="mailto:support@theaudiencestreet.com" className="flex items-center text-primary-foreground hover:underline">
+              <Mail className="w-5 h-5 mr-3" /> support@theaudiencestreet.com
+            </a>
+            <a href="tel:+919014426692" className="flex items-center text-primary-foreground hover:underline">
+              <Phone className="w-5 h-5 mr-3" /> +91 9014426692
+            </a>
           </div>
-
-          {/* CTA Card */}
-          <div className="animate-scale-in">
-            <div className="card-elegant bg-card/95 backdrop-blur-sm rounded-2xl p-6 md:p-8">
-              <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4 md:mb-6">
-                Get Your Free Consultation
-              </h3>
-              
-              <p className="text-muted-foreground mb-8">
-                Schedule a complimentary strategy session with our experts and discover how we can help scale your business with AI and advanced ad-tech solutions.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  Free 30-minute consultation
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  Custom strategy roadmap
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                  No commitment required
+          <div className="space-y-4">
+            {locations.map((l) => (
+              <div key={l.country} className="flex items-start">
+                <MapPin className="w-4 h-4 text-primary-foreground mt-1 mr-3 flex-shrink-0" />
+                <div>
+                  <p className="font-medium text-primary-foreground text-sm">{l.country}</p>
+                  <p className="text-primary-foreground/75 text-sm">{l.address}</p>
                 </div>
               </div>
-
-              <Button 
-                variant="hero" 
-                size="xl" 
-                className="w-full group"
-                onClick={() => window.open('https://form.theaudiencestreet.com', '_blank')}
-              >
-                Schedule Free Consultation
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-
-            </div>
+            ))}
           </div>
         </div>
+        <form onSubmit={submit} className="bg-card rounded-2xl p-6 md:p-8 shadow-lg space-y-4">
+          <div className="grid sm:grid-cols-2 gap-4">
+            <div className="space-y-1.5">
+              <Label htmlFor="c-name">Name</Label>
+              <Input id="c-name" required maxLength={100} value={form.name} onChange={set("name")} />
+            </div>
+            <div className="space-y-1.5">
+              <Label htmlFor="c-email">Work email</Label>
+              <Input id="c-email" type="email" required maxLength={255} value={form.email} onChange={set("email")} />
+            </div>
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="c-company">Company</Label>
+            <Input id="c-company" maxLength={150} value={form.company} onChange={set("company")} />
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="c-interest">Interested in</Label>
+            <select
+              id="c-interest"
+              value={form.interest}
+              onChange={set("interest")}
+              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            >
+              {interests.map((i) => <option key={i}>{i}</option>)}
+            </select>
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="c-message">Message</Label>
+            <Textarea id="c-message" rows={4} maxLength={2000} value={form.message} onChange={set("message")} />
+          </div>
+          <Button type="submit" variant="hero" size="lg" className="w-full">
+            Send message <Send className="w-4 h-4 ml-2" />
+          </Button>
+          <p className="text-xs text-muted-foreground text-center">Opens your email app with your message ready to send.</p>
+        </form>
       </div>
     </section>
   );

@@ -3,22 +3,18 @@ import tasLogo from "@/assets/tas-logo.png";
 
 const Footer = () => {
   const footerLinks = {
-    Services: [
-      { name: "AI Solutions", href: "#services" },
-      { name: "Ad-Tech Platform", href: "#services" },
-      { name: "Machine Learning", href: "#services" },
-      { name: "Predictive Analytics", href: "#services" }
+    Platforms: [
+      { name: "Leadpath", href: "/#leadpath" },
+      { name: "ChatStreet", href: "/#chatstreet" },
+      { name: "DSP & Curation", href: "/#dsp" },
+      { name: "DSP Login", href: "https://dsp.audiencestreet.ai/login" }
     ],
     Company: [
-      { name: "About Us", href: "#about" },
-      { name: "Our Team", href: "#about" },
-      { name: "Careers", href: "#" },
-      { name: "Blog", href: "#" }
+      { name: "About Us", href: "/#about" },
+      { name: "How We Work", href: "/#how-we-work" }
     ],
     Support: [
-      { name: "Contact", href: "#contact" },
-      { name: "Documentation", href: "#" },
-      { name: "Help Center", href: "#" },
+      { name: "Contact", href: "/#contact" },
       { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Terms & Conditions", href: "/terms-conditions" }
     ]
@@ -47,7 +43,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">
-              Leading the future of digital marketing with AI-powered solutions and advanced ad-tech platforms.
+              Media expertise and ad-tech built around audience outcomes.
             </p>
             
             {/* Contact Info */}

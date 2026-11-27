@@ -8,8 +8,9 @@ const Header = () => {
 
   const navigation = [
     { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
-    { name: "Games", href: "#games" },
+    { name: "Leadpath", href: "#leadpath" },
+    { name: "ChatStreet", href: "#chatstreet" },
+    { name: "DSP & Curation", href: "#dsp" },
     { name: "About", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
@@ -31,7 +32,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-6 lg:space-x-8">
             {navigation.map((item) => (
               <a
                 key={item.name}
@@ -44,16 +45,16 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <Button variant="hero" size="default" asChild>
-              <a href="https://dsp.audiencestreet.ai/signup" target="_blank" rel="noopener noreferrer">
-                Get Started
+              <a href="#contact">
+                Talk to our team
               </a>
             </Button>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Button
               variant="ghost"
               size="icon"
@@ -70,7 +71,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border animate-fade-in">
+          <div className="lg:hidden py-4 border-t border-border animate-fade-in">
             <nav className="flex flex-col space-y-4">
               {navigation.map((item) => (
                 <a
@@ -83,8 +84,8 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="hero" size="default" className="mt-4" asChild>
-                <a href="https://dsp.audiencestreet.ai/signup" target="_blank" rel="noopener noreferrer">
-                  Get Started
+                <a href="#contact">
+                  Talk to our team
                 </a>
               </Button>
             </nav>
