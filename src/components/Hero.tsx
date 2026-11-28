@@ -1,6 +1,5 @@
 import { ArrowRight, Workflow, MessageSquare, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroArt from "@/assets/hero-art.jpg";
 
 const offerings = [
   { icon: Workflow, name: "Leadpath", text: "Real-time lead operations", href: "#leadpath", surface: "offering-growth" },
@@ -35,7 +34,6 @@ const Hero = () => (
           </Button>
         </div>
       </div>
-      <img src={heroArt} alt="Abstract ivory forms flecked with cobalt" className="mt-12 md:mt-16 w-full max-w-6xl mx-auto aspect-[16/8] object-cover rounded-lg" />
       <div className="grid sm:grid-cols-3 gap-3 mt-12 md:mt-16 max-w-5xl mx-auto">
         {offerings.map(({ icon: Icon, name, text, href, surface }) => (
           <a key={name} href={href} className={`${surface} text-foreground group rounded-lg p-5 flex items-center gap-4 transition-transform hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary`}>
